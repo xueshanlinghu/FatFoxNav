@@ -792,7 +792,7 @@ sites:
   - name:
       zh-CN: "雪山凌狐教程"
       en-US: "Xueshanlinghu Tutorial"
-    url: "https://www.xueshanlinghu.com"
+    url: "http://fox-9.com/"
     description:
       zh-CN: "精品教程，易语言、Python等，通俗易懂"
       en-US: "Quality tutorials for programming"
@@ -802,7 +802,7 @@ sites:
   - name:
       zh-CN: "知识多一点"
       en-US: "Zsduo"
-    url: "https://zsduo.com"
+    url: "http://zsduo.com/"
     description:
       zh-CN: "每天进步一点点，活到老学到老"
       en-US: "Learn something new every day"

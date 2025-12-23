@@ -27,6 +27,20 @@
 
       <!-- 导航菜单 -->
       <nav class="sidebar-nav">
+        <!-- 一键展开/折叠按钮 -->
+        <div class="expand-all-btn-wrapper" v-show="!isCollapsed">
+          <button
+            class="expand-all-btn"
+            @click="toggleAllCategories"
+            :title="isAllExpanded ? '折叠所有' : '展开所有'"
+          >
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path v-if="isAllExpanded" d="M18 15l-6-6-6 6" />
+              <path v-else d="M6 9l6 6 6-6" />
+            </svg>
+            <span>{{ isAllExpanded ? '折叠所有' : '展开所有' }}</span>
+          </button>
+        </div>
         <ul class="nav-list">
           <li
             v-for="category in categories"
@@ -117,7 +131,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, h, watch } from 'vue'
+import { ref, computed, h } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useConfig } from '@/composables/useConfig'
 import { useScrollSpy } from '@/composables/useScrollSpy'
@@ -134,16 +148,30 @@ const isCollapsed = ref(false)
 const isMobileOpen = ref(false)
 const expandedItems = ref<string[]>([])
 
-// 监听activeSection变化，自动展开父分类
-watch(activeSection, (newVal) => {
-  categories.value.forEach(cat => {
-    if (cat.children?.some(child => child.id === newVal)) {
-      if (!expandedItems.value.includes(cat.id)) {
-        expandedItems.value.push(cat.id)
-      }
-    }
-  })
+// 获取所有有子分类的分类ID
+const expandableCategories = computed(() =>
+  categories.value.filter(c => c.children?.length).map(c => c.id)
+)
+
+// 检查是否所有分类都已展开
+const isAllExpanded = computed(() => {
+  if (expandableCategories.value.length === 0) return false
+  return expandableCategories.value.every(id => expandedItems.value.includes(id))
 })
+
+// 一键展开/折叠所有分类
+const toggleAllCategories = () => {
+  if (isAllExpanded.value) {
+    // 折叠所有
+    expandedItems.value = []
+  } else {
+    // 展开所有
+    expandedItems.value = [...expandableCategories.value]
+  }
+}
+
+// 注意：移除了原来的 watch(activeSection) 自动展开逻辑
+// 因为用户希望滚动时不自动展开分类，只有手动点击时才展开
 
 const localizedSiteName = computed(() => {
   return settings.value.site.name[locale.value as Locale] || settings.value.site.name['zh-CN']
@@ -255,6 +283,18 @@ defineExpose({
 
 .sidebar-nav {
   @apply flex-1 overflow-y-auto py-4 scrollbar-hide;
+}
+
+.expand-all-btn-wrapper {
+  @apply px-3 mb-2;
+}
+
+.expand-all-btn {
+  @apply flex items-center gap-2 w-full px-3 py-1.5
+         text-xs text-gray-400 dark:text-gray-500
+         hover:text-primary-500 dark:hover:text-primary-400
+         rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800
+         transition-colors;
 }
 
 .nav-list {

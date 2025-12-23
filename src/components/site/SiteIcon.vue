@@ -36,6 +36,20 @@ const loadFailed = ref(false)
 const currentSrc = ref('')
 const fallbackIndex = ref(0)
 
+// 检查是否是 DuckDuckGo 返回的默认图标
+// DuckDuckGo 默认图标的特征：48x48 尺寸且来自 DuckDuckGo 域名
+const isDuckDuckGoDefaultIcon = (img: HTMLImageElement, src: string): boolean => {
+  // 只检查来自 DuckDuckGo 的图标
+  if (!src.includes('icons.duckduckgo.com')) {
+    return false
+  }
+  // DuckDuckGo 默认图标是 48x48
+  if (img.naturalWidth === 48 && img.naturalHeight === 48) {
+    return true
+  }
+  return false
+}
+
 // 从 URL 提取域名
 const getDomain = (url: string): string => {
   try {
@@ -110,7 +124,16 @@ const tryNextSource = () => {
 }
 
 // 图片加载成功
-const onImageLoad = () => {
+const onImageLoad = (event: Event) => {
+  const img = event.target as HTMLImageElement
+
+  // 检查是否是 DuckDuckGo 返回的默认占位图标
+  if (isDuckDuckGoDefaultIcon(img, currentSrc.value)) {
+    // 是默认图标，尝试下一个源
+    onImageError()
+    return
+  }
+
   imageLoaded.value = true
 }
 
