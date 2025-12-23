@@ -1,0 +1,73 @@
+# 分类定义
+categories:
+  - id: "recommended"
+    name:
+      zh-CN: "常用推荐"
+      en-US: "Recommended"
+    icon: "star"
+    description:
+      zh-CN: "精选常用网站"
+      en-US: "Curated popular sites"
+
+  - id: "ai-tools"
+    name:
+      zh-CN: "AI工具"
+      en-US: "AI Tools"
+    icon: "sparkles"
+    hot: true
+    children:
+      - id: "ai-chat"
+        name:
+          zh-CN: "AI对话"
+          en-US: "AI Chat"
+      - id: "ai-image"
+        name:
+          zh-CN: "AI绘画"
+          en-US: "AI Image"
+      - id: "ai-coding"
+        name:
+          zh-CN: "AI编程"
+          en-US: "AI Coding"
+
+  - id: "design"
+    name:
+      zh-CN: "设计资源"
+      en-US: "Design Resources"
+    icon: "palette"
+    children:
+      - id: "design-inspiration"
+        name:
+          zh-CN: "灵感采集"
+          en-US: "Inspiration"
+      - id: "design-tools"
+        name:
+          zh-CN: "设计工具"
+          en-US: "Design Tools"
+      - id: "design-assets"
+        name:
+          zh-CN: "素材资源"
+          en-US: "Assets"
+
+  - id: "development"
+    name:
+      zh-CN: "开发工具"
+      en-US: "Development"
+    icon: "code"
+
+  - id: "productivity"
+    name:
+      zh-CN: "效率工具"
+      en-US: "Productivity"
+    icon: "zap"
+
+  - id: "resources"
+    name:
+      zh-CN: "学习资源"
+      en-US: "Learning Resources"
+    icon: "book-open"
+
+  - id: "about"
+    name:
+      zh-CN: "关于本站"
+      en-US: "About"
+    icon: "heart"

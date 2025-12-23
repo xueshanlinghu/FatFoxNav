@@ -1,0 +1,284 @@
+# 网站列表
+sites:
+  # ========== 常用推荐 ==========
+  - name:
+      zh-CN: "Google"
+      en-US: "Google"
+    url: "https://www.google.com"
+    description:
+      zh-CN: "全球最大的搜索引擎"
+      en-US: "World's largest search engine"
+    icon: "/icons/google.png"
+    category: "recommended"
+    featured: true
+
+  - name:
+      zh-CN: "GitHub"
+      en-US: "GitHub"
+    url: "https://github.com"
+    description:
+      zh-CN: "全球最大的代码托管平台"
+      en-US: "World's largest code hosting platform"
+    icon: "/icons/github.png"
+    category: "recommended"
+    tags:
+      - "代码"
+      - "开源"
+    featured: true
+
+  # ========== AI工具 - AI对话 ==========
+  - name:
+      zh-CN: "ChatGPT"
+      en-US: "ChatGPT"
+    url: "https://chat.openai.com"
+    description:
+      zh-CN: "OpenAI开发的AI对话助手"
+      en-US: "AI assistant by OpenAI"
+    icon: "/icons/chatgpt.png"
+    category: "ai-chat"
+    tags:
+      - "AI"
+      - "对话"
+    featured: true
+
+  - name:
+      zh-CN: "Claude"
+      en-US: "Claude"
+    url: "https://claude.ai"
+    description:
+      zh-CN: "Anthropic开发的AI助手"
+      en-US: "AI assistant by Anthropic"
+    icon: "/icons/claude.png"
+    category: "ai-chat"
+    tags:
+      - "AI"
+      - "对话"
+
+  - name:
+      zh-CN: "文心一言"
+      en-US: "ERNIE Bot"
+    url: "https://yiyan.baidu.com"
+    description:
+      zh-CN: "百度推出的AI对话产品"
+      en-US: "AI chat product by Baidu"
+    icon: "/icons/ernie.png"
+    category: "ai-chat"
+
+  # ========== AI工具 - AI绘画 ==========
+  - name:
+      zh-CN: "Midjourney"
+      en-US: "Midjourney"
+    url: "https://www.midjourney.com"
+    description:
+      zh-CN: "强大的AI图像生成工具"
+      en-US: "Powerful AI image generation tool"
+    icon: "/icons/midjourney.png"
+    category: "ai-image"
+    tags:
+      - "AI"
+      - "绘画"
+
+  - name:
+      zh-CN: "DALL-E"
+      en-US: "DALL-E"
+    url: "https://openai.com/dall-e-3"
+    description:
+      zh-CN: "OpenAI的AI绘画工具"
+      en-US: "AI image generator by OpenAI"
+    icon: "/icons/dalle.png"
+    category: "ai-image"
+
+  # ========== AI工具 - AI编程 ==========
+  - name:
+      zh-CN: "GitHub Copilot"
+      en-US: "GitHub Copilot"
+    url: "https://github.com/features/copilot"
+    description:
+      zh-CN: "AI代码助手"
+      en-US: "AI coding assistant"
+    icon: "/icons/copilot.png"
+    category: "ai-coding"
+    tags:
+      - "AI"
+      - "编程"
+
+  - name:
+      zh-CN: "Cursor"
+      en-US: "Cursor"
+    url: "https://cursor.sh"
+    description:
+      zh-CN: "AI驱动的代码编辑器"
+      en-US: "AI-powered code editor"
+    icon: "/icons/cursor.png"
+    category: "ai-coding"
+
+  # ========== 设计资源 - 灵感采集 ==========
+  - name:
+      zh-CN: "Dribbble"
+      en-US: "Dribbble"
+    url: "https://dribbble.com"
+    description:
+      zh-CN: "全球UI设计师作品分享平台"
+      en-US: "Global UI designer showcase platform"
+    icon: "/icons/dribbble.png"
+    category: "design-inspiration"
+    tags:
+      - "设计"
+      - "UI"
+      - "灵感"
+    featured: true
+
+  - name:
+      zh-CN: "Behance"
+      en-US: "Behance"
+    url: "https://behance.net"
+    description:
+      zh-CN: "Adobe旗下设计师交流平台"
+      en-US: "Adobe's designer community platform"
+    icon: "/icons/behance.png"
+    category: "design-inspiration"
+    tags:
+      - "设计"
+      - "作品集"
+
+  - name:
+      zh-CN: "Pinterest"
+      en-US: "Pinterest"
+    url: "https://pinterest.com"
+    description:
+      zh-CN: "全球美图收藏采集站"
+      en-US: "Global image collection platform"
+    icon: "/icons/pinterest.png"
+    category: "design-inspiration"
+
+  # ========== 设计资源 - 设计工具 ==========
+  - name:
+      zh-CN: "Figma"
+      en-US: "Figma"
+    url: "https://figma.com"
+    description:
+      zh-CN: "协作式界面设计工具"
+      en-US: "Collaborative interface design tool"
+    icon: "/icons/figma.png"
+    category: "design-tools"
+    tags:
+      - "设计"
+      - "UI"
+    featured: true
+
+  - name:
+      zh-CN: "Canva"
+      en-US: "Canva"
+    url: "https://canva.com"
+    description:
+      zh-CN: "在线平面设计工具"
+      en-US: "Online graphic design tool"
+    icon: "/icons/canva.png"
+    category: "design-tools"
+
+  # ========== 设计资源 - 素材资源 ==========
+  - name:
+      zh-CN: "Unsplash"
+      en-US: "Unsplash"
+    url: "https://unsplash.com"
+    description:
+      zh-CN: "免费高清图片素材库"
+      en-US: "Free high-resolution photos"
+    icon: "/icons/unsplash.png"
+    category: "design-assets"
+    tags:
+      - "图片"
+      - "免费"
+
+  - name:
+      zh-CN: "IconFont"
+      en-US: "IconFont"
+    url: "https://www.iconfont.cn"
+    description:
+      zh-CN: "阿里巴巴矢量图标库"
+      en-US: "Alibaba vector icon library"
+    icon: "/icons/iconfont.png"
+    category: "design-assets"
+
+  # ========== 开发工具 ==========
+  - name:
+      zh-CN: "VS Code"
+      en-US: "VS Code"
+    url: "https://code.visualstudio.com"
+    description:
+      zh-CN: "微软开源的代码编辑器"
+      en-US: "Microsoft's open source code editor"
+    icon: "/icons/vscode.png"
+    category: "development"
+    tags:
+      - "编辑器"
+      - "开发"
+
+  - name:
+      zh-CN: "Stack Overflow"
+      en-US: "Stack Overflow"
+    url: "https://stackoverflow.com"
+    description:
+      zh-CN: "全球最大的程序员问答社区"
+      en-US: "World's largest developer Q&A community"
+    icon: "/icons/stackoverflow.png"
+    category: "development"
+
+  - name:
+      zh-CN: "npm"
+      en-US: "npm"
+    url: "https://www.npmjs.com"
+    description:
+      zh-CN: "JavaScript包管理平台"
+      en-US: "JavaScript package registry"
+    icon: "/icons/npm.png"
+    category: "development"
+
+  # ========== 效率工具 ==========
+  - name:
+      zh-CN: "Notion"
+      en-US: "Notion"
+    url: "https://notion.so"
+    description:
+      zh-CN: "All-in-one工作空间"
+      en-US: "All-in-one workspace"
+    icon: "/icons/notion.png"
+    category: "productivity"
+    tags:
+      - "笔记"
+      - "协作"
+    featured: true
+
+  - name:
+      zh-CN: "Trello"
+      en-US: "Trello"
+    url: "https://trello.com"
+    description:
+      zh-CN: "可视化项目管理工具"
+      en-US: "Visual project management tool"
+    icon: "/icons/trello.png"
+    category: "productivity"
+
+  # ========== 学习资源 ==========
+  - name:
+      zh-CN: "MDN Web Docs"
+      en-US: "MDN Web Docs"
+    url: "https://developer.mozilla.org"
+    description:
+      zh-CN: "Web开发权威文档"
+      en-US: "Authoritative web development docs"
+    icon: "/icons/mdn.png"
+    category: "resources"
+    tags:
+      - "文档"
+      - "Web"
+
+  - name:
+      zh-CN: "掘金"
+      en-US: "Juejin"
+    url: "https://juejin.cn"
+    description:
+      zh-CN: "中国开发者技术社区"
+      en-US: "Chinese developer community"
+    icon: "/icons/juejin.png"
+    category: "resources"

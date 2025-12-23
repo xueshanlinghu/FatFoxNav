@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  panghu-nav:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: panghu-nav
+    ports:
+      - "8765:8765"
+    restart: unless-stopped

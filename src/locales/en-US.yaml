@@ -1,0 +1,30 @@
+common:
+  loading: "Loading..."
+  error: "Error"
+
+nav:
+  home: "Home"
+  about: "About"
+
+search:
+  placeholder: "Search sites... (Ctrl+K)"
+  results: "Found {count} results"
+  noResults: "No sites found"
+  tagMatch: "Tag match"
+
+theme:
+  light: "Light"
+  dark: "Dark"
+  system: "System"
+  toggle: "Toggle theme"
+
+sidebar:
+  collapse: "Collapse sidebar"
+  expand: "Expand sidebar"
+
+footer:
+  poweredBy: "Powered by"
+  credits: "Credits"
+
+backToTop:
+  title: "Back to top"

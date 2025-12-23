@@ -1,0 +1,47 @@
+# 站点基础设置
+site:
+  name:
+    zh-CN: "胖狐导航"
+    en-US: "Fat Fox Nav"
+  description:
+    zh-CN: "精选优质网站，助力高效工作"
+    en-US: "Curated quality websites for efficient work"
+  keywords: "导航,网址导航,工具导航,设计资源,AI工具"
+  logo: "/logo.svg"
+  favicon: "/favicon.ico"
+
+# 功能开关
+features:
+  search: true
+  darkMode: true
+  i18n: true
+  backToTop: true
+
+# 默认设置
+defaults:
+  language: "zh-CN"
+  theme: "system"  # light | dark | system
+
+# SEO设置
+seo:
+  ogImage: "/og-image.png"
+  twitterCard: "summary_large_image"
+
+# 页脚信息
+footer:
+  copyright:
+    zh-CN: "2024 胖狐导航"
+    en-US: "2024 Fat Fox Nav"
+  links:
+    - name:
+        zh-CN: "GitHub"
+        en-US: "GitHub"
+      url: "https://github.com/yourname/panghu-nav"
+      icon: "github"
+  # 致谢原作者
+  credits:
+    - name: "WebStackPage"
+      url: "https://github.com/WebStackPage/WebStackPage.github.io"
+      description:
+        zh-CN: "感谢 WebStackPage 项目提供灵感"
+        en-US: "Inspired by WebStackPage"
