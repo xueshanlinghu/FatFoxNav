@@ -1,12 +1,12 @@
 <template>
   <div class="app-layout">
     <!-- 侧边栏 -->
-    <AppSidebar ref="sidebarRef" />
+    <AppSidebar />
 
     <!-- 主内容区 -->
     <div class="main-wrapper">
       <!-- 顶部导航 -->
-      <AppHeader @toggle-sidebar="toggleSidebar" />
+      <AppHeader />
 
       <!-- 内容区 -->
       <main class="main-content">
@@ -62,16 +62,11 @@ import type { Locale } from '@/types'
 const { t, locale } = useI18n()
 const { settings } = useConfig()
 
-const sidebarRef = ref<InstanceType<typeof AppSidebar> | null>(null)
 const showBackToTop = ref(false)
 
 const localizedCopyright = computed(() => {
   return settings.value.footer.copyright[locale.value as Locale] || settings.value.footer.copyright['zh-CN']
 })
-
-const toggleSidebar = () => {
-  sidebarRef.value?.toggleMobile()
-}
 
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' })

@@ -1,22 +1,15 @@
 <template>
   <header class="app-header glass">
     <div class="header-inner">
-      <!-- 移动端菜单按钮 -->
-      <button class="menu-btn lg:hidden" @click="$emit('toggle-sidebar')">
-        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M3 12h18M3 6h18M3 18h18" />
-        </svg>
-      </button>
-
       <!-- 搜索框 -->
-      <SearchBox class="flex-1 max-w-xl mx-4" />
+      <SearchBox class="flex-1 max-w-xl" />
 
       <!-- 右侧工具栏 -->
       <div class="header-actions">
         <LanguageSwitch />
         <ThemeToggle />
         <a
-          href="https://github.com/yourname/panghu-nav"
+          href="https://github.com/xueshanlinghu/FatFoxNav"
           target="_blank"
           class="github-link"
           title="GitHub"
@@ -34,8 +27,6 @@
 import SearchBox from '@/components/common/SearchBox.vue'
 import ThemeToggle from '@/components/common/ThemeToggle.vue'
 import LanguageSwitch from '@/components/common/LanguageSwitch.vue'
-
-defineEmits(['toggle-sidebar'])
 </script>
 
 <style scoped>
@@ -45,19 +36,11 @@ defineEmits(['toggle-sidebar'])
 }
 
 .header-inner {
-  @apply h-full px-4 flex items-center gap-4;
-}
-
-.menu-btn {
-  @apply w-10 h-10 rounded-xl
-         flex items-center justify-center
-         text-gray-500 dark:text-gray-400
-         hover:bg-gray-100 dark:hover:bg-gray-700
-         transition-colors;
+  @apply h-full px-4 lg:px-6 flex items-center justify-between gap-4;
 }
 
 .header-actions {
-  @apply flex items-center gap-1;
+  @apply flex items-center gap-2 pr-2;
 }
 
 .github-link {

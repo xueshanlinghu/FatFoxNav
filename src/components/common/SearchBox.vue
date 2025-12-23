@@ -61,12 +61,13 @@
               class="result-link"
               @mouseenter="activeIndex = index"
             >
-              <img
-                :src="result.site.icon"
-                :alt="getLocalizedText(result.site.name)"
-                class="result-icon"
-                @error="handleImageError"
-              />
+              <div class="result-icon">
+                <SiteIcon
+                  :src="result.site.icon"
+                  :url="result.site.url"
+                  :name="getLocalizedText(result.site.name)"
+                />
+              </div>
               <div class="result-info">
                 <span class="result-name">{{ getLocalizedText(result.site.name) }}</span>
                 <span class="result-desc">{{ getLocalizedText(result.site.description) }}</span>
@@ -94,6 +95,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useSearch } from '@/composables/useSearch'
+import SiteIcon from '@/components/site/SiteIcon.vue'
 import type { I18nText, Locale } from '@/types'
 
 const { t, locale } = useI18n()
@@ -128,11 +130,6 @@ const selectResult = () => {
   if (hasResults.value && result) {
     window.open(result.site.url, '_blank')
   }
-}
-
-const handleImageError = (e: Event) => {
-  const img = e.target as HTMLImageElement
-  img.src = '/icons/default.png'
 }
 
 // 全局快捷键
@@ -225,7 +222,7 @@ onUnmounted(() => {
 }
 
 .result-icon {
-  @apply w-8 h-8 rounded-lg object-contain bg-gray-100 dark:bg-gray-700;
+  @apply w-8 h-8 flex-shrink-0;
 }
 
 .result-info {
