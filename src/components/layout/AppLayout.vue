@@ -17,7 +17,7 @@
       <footer class="app-footer">
         <div class="footer-inner">
           <p class="copyright">
-            © {{ localizedCopyright }}
+            {{ localizedCopyright }}
           </p>
           <p class="credits">
             {{ t('footer.credits') }}:
