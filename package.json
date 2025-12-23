@@ -1,8 +1,14 @@
 {
   "name": "panghu-nav",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xueshanlinghu/FatFoxNav.git"
+  },
+  "author": "雪山凌狐",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",

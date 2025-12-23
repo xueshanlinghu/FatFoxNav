@@ -29,3 +29,6 @@ WebStackPage/
 # Claude Code plans
 .claude/
 CLAUDE.md
+
+# Temporary docs (local version notes)
+temp_docs/

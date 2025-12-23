@@ -9,6 +9,9 @@ export default defineConfig({
     vue(),
     yaml()
   ],
+  // GitHub Pages 部署时设置为仓库名，如 '/FatFoxNav/'
+  // 本地开发或 Docker 部署时设置为 '/'
+  base: process.env.GITHUB_PAGES === 'true' ? '/FatFoxNav/' : '/',
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),

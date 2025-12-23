@@ -1,6 +1,10 @@
 # 胖狐导航 (Fat Fox Nav)
 
+[![GitHub](https://img.shields.io/github/license/xueshanlinghu/FatFoxNav)](https://github.com/xueshanlinghu/FatFoxNav)
+
 一个现代化、配置驱动的网址导航站，基于 Vue 3 + Vite + Tailwind CSS 构建。
+
+**GitHub**: https://github.com/xueshanlinghu/FatFoxNav
 
 ## 特性
 

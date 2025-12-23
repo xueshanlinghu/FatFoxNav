@@ -9,11 +9,10 @@
     <div class="card-inner">
       <!-- 图标 -->
       <div class="card-icon">
-        <img
+        <SiteIcon
           :src="site.icon"
-          :alt="localizedName"
-          loading="lazy"
-          @error="handleImageError"
+          :url="site.url"
+          :name="localizedName"
         />
       </div>
 
@@ -33,6 +32,7 @@
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import type { Site, Locale } from '@/types'
+import SiteIcon from './SiteIcon.vue'
 
 const props = defineProps<{
   site: Site
@@ -47,11 +47,6 @@ const localizedName = computed(() => {
 const localizedDesc = computed(() => {
   return props.site.description[locale.value as Locale] || props.site.description['zh-CN']
 })
-
-const handleImageError = (e: Event) => {
-  const img = e.target as HTMLImageElement
-  img.src = '/icons/default.png'
-}
 </script>
 
 <style scoped>
@@ -68,15 +63,9 @@ const handleImageError = (e: Event) => {
 }
 
 .card-icon {
-  @apply flex-shrink-0 w-12 h-12 rounded-xl overflow-hidden
-         bg-gray-100 dark:bg-gray-700
-         flex items-center justify-center
+  @apply flex-shrink-0 w-12 h-12
          transition-transform duration-300
          group-hover:scale-110;
-}
-
-.card-icon img {
-  @apply w-10 h-10 object-contain;
 }
 
 .card-info {

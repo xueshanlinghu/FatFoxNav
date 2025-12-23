@@ -30,13 +30,13 @@ seo:
 # 页脚信息
 footer:
   copyright:
-    zh-CN: "2024 胖狐导航"
-    en-US: "2024 Fat Fox Nav"
+    zh-CN: "© 2025 胖狐导航"
+    en-US: "© 2025 Fat Fox Nav"
   links:
     - name:
         zh-CN: "GitHub"
         en-US: "GitHub"
-      url: "https://github.com/yourname/panghu-nav"
+      url: "https://github.com/xueshanlinghu/FatFoxNav"
       icon: "github"
   # 致谢原作者
   credits:
