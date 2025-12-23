@@ -1,14 +1,16 @@
 # 分类定义
 categories:
+  # ========== 常用推荐 ==========
   - id: "recommended"
     name:
       zh-CN: "常用推荐"
       en-US: "Recommended"
     icon: "star"
     description:
-      zh-CN: "精选常用网站"
+      zh-CN: "精选高频使用网站"
       en-US: "Curated popular sites"
 
+  # ========== AI工具 ==========
   - id: "ai-tools"
     name:
       zh-CN: "AI工具"
@@ -24,11 +26,56 @@ categories:
         name:
           zh-CN: "AI绘画"
           en-US: "AI Image"
+      - id: "ai-video"
+        name:
+          zh-CN: "AI视频"
+          en-US: "AI Video"
+      - id: "ai-audio"
+        name:
+          zh-CN: "AI音频"
+          en-US: "AI Audio"
       - id: "ai-coding"
         name:
           zh-CN: "AI编程"
           en-US: "AI Coding"
+      - id: "ai-writing"
+        name:
+          zh-CN: "AI写作"
+          en-US: "AI Writing"
+      - id: "ai-all-in-one"
+        name:
+          zh-CN: "AI综合"
+          en-US: "AI All-in-One"
+      - id: "ai-navigation"
+        name:
+          zh-CN: "AI导航"
+          en-US: "AI Navigation"
 
+  # ========== 开发工具 ==========
+  - id: "development"
+    name:
+      zh-CN: "开发工具"
+      en-US: "Development"
+    icon: "code"
+    children:
+      - id: "dev-frontend"
+        name:
+          zh-CN: "前端框架"
+          en-US: "Frontend"
+      - id: "dev-docs"
+        name:
+          zh-CN: "开发文档"
+          en-US: "Dev Docs"
+      - id: "dev-online-ide"
+        name:
+          zh-CN: "在线IDE"
+          en-US: "Online IDE"
+      - id: "dev-hosting"
+        name:
+          zh-CN: "代码托管"
+          en-US: "Code Hosting"
+
+  # ========== 设计资源 ==========
   - id: "design"
     name:
       zh-CN: "设计资源"
@@ -43,31 +90,89 @@ categories:
         name:
           zh-CN: "设计工具"
           en-US: "Design Tools"
-      - id: "design-assets"
+      - id: "design-icons"
         name:
-          zh-CN: "素材资源"
-          en-US: "Assets"
+          zh-CN: "图标素材"
+          en-US: "Icons"
+      - id: "design-images"
+        name:
+          zh-CN: "图片素材"
+          en-US: "Images"
+      - id: "design-fonts"
+        name:
+          zh-CN: "字体资源"
+          en-US: "Fonts"
 
-  - id: "development"
-    name:
-      zh-CN: "开发工具"
-      en-US: "Development"
-    icon: "code"
-
+  # ========== 效率工具 ==========
   - id: "productivity"
     name:
       zh-CN: "效率工具"
       en-US: "Productivity"
     icon: "zap"
+    children:
+      - id: "prod-docs"
+        name:
+          zh-CN: "在线文档"
+          en-US: "Online Docs"
+      - id: "prod-notes"
+        name:
+          zh-CN: "笔记工具"
+          en-US: "Note Tools"
+      - id: "prod-files"
+        name:
+          zh-CN: "文件处理"
+          en-US: "File Tools"
 
+  # ========== 学习资源 ==========
   - id: "resources"
     name:
       zh-CN: "学习资源"
       en-US: "Learning Resources"
     icon: "book-open"
+    children:
+      - id: "res-blogs"
+        name:
+          zh-CN: "技术博客"
+          en-US: "Tech Blogs"
+      - id: "res-courses"
+        name:
+          zh-CN: "在线课程"
+          en-US: "Online Courses"
+      - id: "res-community"
+        name:
+          zh-CN: "技术社区"
+          en-US: "Tech Community"
 
+  # ========== 生活服务 ==========
+  - id: "life-services"
+    name:
+      zh-CN: "生活服务"
+      en-US: "Life Services"
+    icon: "heart"
+    children:
+      - id: "life-jobs"
+        name:
+          zh-CN: "求职招聘"
+          en-US: "Job Hunting"
+      - id: "life-email"
+        name:
+          zh-CN: "邮箱服务"
+          en-US: "Email Services"
+      - id: "life-gov"
+        name:
+          zh-CN: "政务服务"
+          en-US: "Government Services"
+
+  # ========== 软件资源 ==========
+  - id: "software"
+    name:
+      zh-CN: "软件资源"
+      en-US: "Software"
+    icon: "download"
+
+  # ========== 关于本站 ==========
   - id: "about"
     name:
       zh-CN: "关于本站"
       en-US: "About"
-    icon: "heart"
+    icon: "info"

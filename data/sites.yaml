@@ -1,6 +1,6 @@
 # 网站列表
 sites:
-  # ========== 常用推荐 ==========
+  # ==================== 常用推荐 ====================
   - name:
       zh-CN: "Google"
       en-US: "Google"
@@ -8,7 +8,6 @@ sites:
     description:
       zh-CN: "全球最大的搜索引擎"
       en-US: "World's largest search engine"
-    icon: "/icons/google.png"
     category: "recommended"
     featured: true
 
@@ -19,26 +18,20 @@ sites:
     description:
       zh-CN: "全球最大的代码托管平台"
       en-US: "World's largest code hosting platform"
-    icon: "/icons/github.png"
     category: "recommended"
-    tags:
-      - "代码"
-      - "开源"
+    tags: ["代码", "开源"]
     featured: true
 
-  # ========== AI工具 - AI对话 ==========
+  # ==================== AI工具 - AI对话 ====================
   - name:
       zh-CN: "ChatGPT"
       en-US: "ChatGPT"
     url: "https://chat.openai.com"
     description:
-      zh-CN: "OpenAI开发的AI对话助手"
+      zh-CN: "OpenAI开发的AI对话助手，时下最火的AI语言模型"
       en-US: "AI assistant by OpenAI"
-    icon: "/icons/chatgpt.png"
     category: "ai-chat"
-    tags:
-      - "AI"
-      - "对话"
+    tags: ["AI", "对话"]
     featured: true
 
   - name:
@@ -48,11 +41,8 @@ sites:
     description:
       zh-CN: "Anthropic开发的AI助手"
       en-US: "AI assistant by Anthropic"
-    icon: "/icons/claude.png"
     category: "ai-chat"
-    tags:
-      - "AI"
-      - "对话"
+    tags: ["AI", "对话"]
 
   - name:
       zh-CN: "文心一言"
@@ -61,10 +51,9 @@ sites:
     description:
       zh-CN: "百度推出的AI对话产品"
       en-US: "AI chat product by Baidu"
-    icon: "/icons/ernie.png"
     category: "ai-chat"
 
-  # ========== AI工具 - AI绘画 ==========
+  # ==================== AI工具 - AI绘画 ====================
   - name:
       zh-CN: "Midjourney"
       en-US: "Midjourney"
@@ -72,11 +61,8 @@ sites:
     description:
       zh-CN: "强大的AI图像生成工具"
       en-US: "Powerful AI image generation tool"
-    icon: "/icons/midjourney.png"
     category: "ai-image"
-    tags:
-      - "AI"
-      - "绘画"
+    tags: ["AI", "绘画"]
 
   - name:
       zh-CN: "DALL-E"
@@ -85,10 +71,18 @@ sites:
     description:
       zh-CN: "OpenAI的AI绘画工具"
       en-US: "AI image generator by OpenAI"
-    icon: "/icons/dalle.png"
     category: "ai-image"
 
-  # ========== AI工具 - AI编程 ==========
+  - name:
+      zh-CN: "AI图片放大"
+      en-US: "AI Image Upscaler"
+    url: "https://bigjpg.com"
+    description:
+      zh-CN: "使用AI技术实现图片无损放大"
+      en-US: "AI-powered image upscaling"
+    category: "ai-image"
+
+  # ==================== AI工具 - AI编程 ====================
   - name:
       zh-CN: "GitHub Copilot"
       en-US: "GitHub Copilot"
@@ -96,11 +90,8 @@ sites:
     description:
       zh-CN: "AI代码助手"
       en-US: "AI coding assistant"
-    icon: "/icons/copilot.png"
     category: "ai-coding"
-    tags:
-      - "AI"
-      - "编程"
+    tags: ["AI", "编程"]
 
   - name:
       zh-CN: "Cursor"
@@ -109,23 +100,235 @@ sites:
     description:
       zh-CN: "AI驱动的代码编辑器"
       en-US: "AI-powered code editor"
-    icon: "/icons/cursor.png"
     category: "ai-coding"
 
-  # ========== 设计资源 - 灵感采集 ==========
+  # ==================== AI工具 - AI写作 ====================
+  - name:
+      zh-CN: "网易见外"
+      en-US: "NetEase Sight"
+    url: "https://sight.youdao.com"
+    description:
+      zh-CN: "支持音视频翻译、语音转写，使用AI技术"
+      en-US: "AI-powered translation and transcription"
+    category: "ai-writing"
+
+  - name:
+      zh-CN: "易撰微信编辑器"
+      en-US: "Yizhuan Editor"
+    url: "https://www.yizhuan5.com"
+    description:
+      zh-CN: "可用于微信热点文章撰写，学习标题写作"
+      en-US: "WeChat article editor for trending content"
+    category: "ai-writing"
+
+  # ==================== AI工具 - AI导航 ====================
+  - name:
+      zh-CN: "AI工具百宝箱"
+      en-US: "AI Tools Collection"
+    url: "https://ai-bot.cn"
+    description:
+      zh-CN: "最实用、最热门AI工具集合，帮助你更轻松有效率"
+      en-US: "Collection of practical AI tools"
+    category: "ai-navigation"
+
+  - name:
+      zh-CN: "Free ChatGPT Site List"
+      en-US: "Free ChatGPT Site List"
+    url: "https://github.com/LiLittleCat/awesome-free-chatgpt"
+    description:
+      zh-CN: "收集免费使用ChatGPT站点的列表"
+      en-US: "Collection of free ChatGPT sites"
+    category: "ai-navigation"
+
+  - name:
+      zh-CN: "ChatGPT指令大全"
+      en-US: "ChatGPT Prompts"
+    url: "https://www.explainthis.io/zh-hans/chatgpt"
+    description:
+      zh-CN: "精炼过的指令语句，充分发挥ChatGPT的强大功能"
+      en-US: "Curated prompts to maximize ChatGPT potential"
+    category: "ai-navigation"
+
+  # ==================== 开发工具 - 前端框架 ====================
+  - name:
+      zh-CN: "Bootstrap"
+      en-US: "Bootstrap"
+    url: "https://getbootstrap.com"
+    description:
+      zh-CN: "简洁、直观、强悍的前端开发框架"
+      en-US: "Popular CSS framework for responsive design"
+    category: "dev-frontend"
+    featured: true
+
+  - name:
+      zh-CN: "BootCDN"
+      en-US: "BootCDN"
+    url: "https://www.bootcdn.cn"
+    description:
+      zh-CN: "稳定、快速、免费的前端开源项目CDN加速服务"
+      en-US: "Free CDN for frontend open source projects"
+    category: "dev-frontend"
+
+  - name:
+      zh-CN: "Layui"
+      en-US: "Layui"
+    url: "https://layui.dev"
+    description:
+      zh-CN: "面向全层次的前后端开发者，易上手且开源免费"
+      en-US: "Easy-to-use open source web UI framework"
+    category: "dev-frontend"
+
+  - name:
+      zh-CN: "Layuimini"
+      en-US: "Layuimini"
+    url: "https://github.com/zhongshaofa/layuimini"
+    description:
+      zh-CN: "基于Layui的最简洁、易用的后台框架模板"
+      en-US: "Minimal admin template based on Layui"
+    category: "dev-frontend"
+
+  - name:
+      zh-CN: "50个Bootstrap主题"
+      en-US: "50 Bootstrap Themes"
+    url: "https://speckyboy.com/free-bootstrap-themes"
+    description:
+      zh-CN: "收集精选的Bootstrap主题模板下载"
+      en-US: "Collection of free Bootstrap themes"
+    category: "dev-frontend"
+
+  - name:
+      zh-CN: "40个Bootstrap后台模板"
+      en-US: "40 Bootstrap Admin Templates"
+    url: "https://dev.to/theme_developer/40-free-bootstrap-admin-templates-2022-24g9"
+    description:
+      zh-CN: "免费的Bootstrap后台管理界面模板"
+      en-US: "Free Bootstrap admin dashboard templates"
+    category: "dev-frontend"
+
+  # ==================== 开发工具 - 开发文档 ====================
+  - name:
+      zh-CN: "MDN Web Docs"
+      en-US: "MDN Web Docs"
+    url: "https://developer.mozilla.org"
+    description:
+      zh-CN: "Web开发权威文档，开发大佬必参考"
+      en-US: "Authoritative web development documentation"
+    category: "dev-docs"
+    tags: ["文档", "Web"]
+    featured: true
+
+  - name:
+      zh-CN: "HTML实体代码大全"
+      en-US: "HTML Entity Reference"
+    url: "https://html.spec.whatwg.org/multipage/named-characters.html"
+    description:
+      zh-CN: "HTML实体代码参考文档"
+      en-US: "Complete HTML entity reference"
+    category: "dev-docs"
+
+  - name:
+      zh-CN: "codingheroes"
+      en-US: "codingheroes"
+    url: "https://codingheroes.io/resources"
+    description:
+      zh-CN: "Web开发老师JONAS的Udemy资源"
+      en-US: "Jonas' web development resources"
+    category: "dev-docs"
+
+  # ==================== 开发工具 - 在线IDE ====================
+  - name:
+      zh-CN: "CodePen"
+      en-US: "CodePen"
+    url: "https://codepen.io"
+    description:
+      zh-CN: "在线写HTML、CSS、JS代码并渲染"
+      en-US: "Online code editor for frontend development"
+    category: "dev-online-ide"
+    featured: true
+
+  - name:
+      zh-CN: "Codeply"
+      en-US: "Codeply"
+    url: "https://www.codeply.com"
+    description:
+      zh-CN: "在线代码游乐场，可添加Bootstrap、Vue等"
+      en-US: "Online code playground with framework support"
+    category: "dev-online-ide"
+
+  - name:
+      zh-CN: "Vditor"
+      en-US: "Vditor"
+    url: "https://b3log.org/vditor"
+    description:
+      zh-CN: "优质的Markdown编辑器，支持即时渲染"
+      en-US: "Excellent Markdown editor with live preview"
+    category: "dev-online-ide"
+
+  - name:
+      zh-CN: "阿里云Notebook"
+      en-US: "Aliyun Notebook"
+    url: "https://tianchi.aliyun.com/notebook-ai"
+    description:
+      zh-CN: "阿里云天池出品在线notebook开发平台"
+      en-US: "Aliyun Tianchi online notebook platform"
+    category: "dev-online-ide"
+
+  - name:
+      zh-CN: "Javascript生成目录树"
+      en-US: "JS Directory Tree"
+    url: "https://www.treejs.cn"
+    description:
+      zh-CN: "免费的JavaScript生成目录树代码"
+      en-US: "Free JavaScript directory tree component"
+    category: "dev-online-ide"
+
+  # ==================== 开发工具 - 代码托管 ====================
+  - name:
+      zh-CN: "npm"
+      en-US: "npm"
+    url: "https://www.npmjs.com"
+    description:
+      zh-CN: "JavaScript包管理平台"
+      en-US: "JavaScript package registry"
+    category: "dev-hosting"
+
+  - name:
+      zh-CN: "Server酱"
+      en-US: "Server Chan"
+    url: "https://sct.ftqq.com"
+    description:
+      zh-CN: "从服务器、路由器等设备推消息到手机的工具"
+      en-US: "Push notifications from server to mobile"
+    category: "dev-hosting"
+
+  - name:
+      zh-CN: "禅道"
+      en-US: "ZenTao"
+    url: "https://www.zentao.net"
+    description:
+      zh-CN: "灵活的项目管理软件，覆盖软件开发全周期"
+      en-US: "Agile project management software"
+    category: "dev-hosting"
+
+  - name:
+      zh-CN: "Faker Api"
+      en-US: "Faker Api"
+    url: "https://fakerapi.it"
+    description:
+      zh-CN: "免费生成假数据用于测试的API接口"
+      en-US: "Free fake data API for testing"
+    category: "dev-hosting"
+
+  # ==================== 设计资源 - 灵感采集 ====================
   - name:
       zh-CN: "Dribbble"
       en-US: "Dribbble"
     url: "https://dribbble.com"
     description:
-      zh-CN: "全球UI设计师作品分享平台"
+      zh-CN: "全球UI设计师作品分享平台，寻求灵感的地方"
       en-US: "Global UI designer showcase platform"
-    icon: "/icons/dribbble.png"
     category: "design-inspiration"
-    tags:
-      - "设计"
-      - "UI"
-      - "灵感"
+    tags: ["设计", "UI", "灵感"]
     featured: true
 
   - name:
@@ -135,11 +338,8 @@ sites:
     description:
       zh-CN: "Adobe旗下设计师交流平台"
       en-US: "Adobe's designer community platform"
-    icon: "/icons/behance.png"
     category: "design-inspiration"
-    tags:
-      - "设计"
-      - "作品集"
+    tags: ["设计", "作品集"]
 
   - name:
       zh-CN: "Pinterest"
@@ -148,10 +348,45 @@ sites:
     description:
       zh-CN: "全球美图收藏采集站"
       en-US: "Global image collection platform"
-    icon: "/icons/pinterest.png"
     category: "design-inspiration"
 
-  # ========== 设计资源 - 设计工具 ==========
+  - name:
+      zh-CN: "Collect UI"
+      en-US: "Collect UI"
+    url: "https://collectui.com"
+    description:
+      zh-CN: "网站UI设计灵感查找地"
+      en-US: "Daily UI design inspiration"
+    category: "design-inspiration"
+
+  - name:
+      zh-CN: "Clean Websites灵感"
+      en-US: "Clean Websites"
+    url: "https://www.webdesign-inspiration.com"
+    description:
+      zh-CN: "干净的网站设计灵感学习"
+      en-US: "Clean website design inspiration"
+    category: "design-inspiration"
+
+  - name:
+      zh-CN: "Design patterns"
+      en-US: "Design patterns"
+    url: "https://ui-patterns.com"
+    description:
+      zh-CN: "网站体验设计模式的灵感学习"
+      en-US: "UI design patterns inspiration"
+    category: "design-inspiration"
+
+  - name:
+      zh-CN: "Sneakpeekit"
+      en-US: "Sneakpeekit"
+    url: "https://sneakpeekit.com"
+    description:
+      zh-CN: "线框设计草稿图模板下载"
+      en-US: "Printable sketch sheets for design"
+    category: "design-inspiration"
+
+  # ==================== 设计资源 - 设计工具 ====================
   - name:
       zh-CN: "Figma"
       en-US: "Figma"
@@ -159,11 +394,8 @@ sites:
     description:
       zh-CN: "协作式界面设计工具"
       en-US: "Collaborative interface design tool"
-    icon: "/icons/figma.png"
     category: "design-tools"
-    tags:
-      - "设计"
-      - "UI"
+    tags: ["设计", "UI"]
     featured: true
 
   - name:
@@ -171,25 +403,155 @@ sites:
       en-US: "Canva"
     url: "https://canva.com"
     description:
-      zh-CN: "在线平面设计工具"
+      zh-CN: "在线平面设计工具，免费页面设计"
       en-US: "Online graphic design tool"
-    icon: "/icons/canva.png"
     category: "design-tools"
 
-  # ========== 设计资源 - 素材资源 ==========
   - name:
-      zh-CN: "Unsplash"
-      en-US: "Unsplash"
-    url: "https://unsplash.com"
+      zh-CN: "创客贴"
+      en-US: "Chuangkit"
+    url: "https://www.chuangkit.com"
     description:
-      zh-CN: "免费高清图片素材库"
-      en-US: "Free high-resolution photos"
-    icon: "/icons/unsplash.png"
-    category: "design-assets"
-    tags:
-      - "图片"
-      - "免费"
+      zh-CN: "让设计触手可得，平面图设计的好帮手"
+      en-US: "Easy graphic design platform"
+    category: "design-tools"
 
+  - name:
+      zh-CN: "易企秀"
+      en-US: "Eqxiu"
+    url: "https://www.eqxiu.com"
+    description:
+      zh-CN: "平面设计、H5页面等，手到擒来"
+      en-US: "H5 page and poster design platform"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "凡科快图"
+      en-US: "Fkuaitu"
+    url: "https://kt.fkw.com"
+    description:
+      zh-CN: "极简图片编辑/丰富版权资源/海量模板"
+      en-US: "Simple image editor with templates"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "TinyPNG"
+      en-US: "TinyPNG"
+    url: "https://tinypng.com"
+    description:
+      zh-CN: "无损图片压缩站点，免费"
+      en-US: "Smart PNG and JPEG compression"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "Balsamiq Cloud"
+      en-US: "Balsamiq Cloud"
+    url: "https://balsamiq.cloud"
+    description:
+      zh-CN: "在线线框设计网站草图"
+      en-US: "Cloud-based wireframing tool"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "Adobe Color"
+      en-US: "Adobe Color"
+    url: "https://color.adobe.com"
+    description:
+      zh-CN: "免费的色轮搭配，网站颜色搭配利器"
+      en-US: "Color wheel and palette generator"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "Color Hunt"
+      en-US: "Color Hunt"
+    url: "https://colorhunt.co"
+    description:
+      zh-CN: "各种调色板，做Web配色找它就对了"
+      en-US: "Curated color palettes for designers"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "Open color"
+      en-US: "Open color"
+    url: "https://yeun.github.io/open-color"
+    description:
+      zh-CN: "开源颜色调色板，支持颜色的轻重"
+      en-US: "Open source color scheme"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "Color Contrast Checker"
+      en-US: "Color Contrast Checker"
+    url: "https://coolors.co/contrast-checker"
+    description:
+      zh-CN: "颜色对比度评分，有利于读者阅读"
+      en-US: "Check color contrast for accessibility"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "CSS3 button generator"
+      en-US: "CSS3 button generator"
+    url: "https://css3buttongenerator.com"
+    description:
+      zh-CN: "在线生成精美按钮的站点"
+      en-US: "Generate CSS3 buttons online"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "Crop a circle"
+      en-US: "Crop a circle"
+    url: "https://crop-circle.imageonline.co"
+    description:
+      zh-CN: "在线将图片切成圆形"
+      en-US: "Crop images into circles online"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "favicon generator"
+      en-US: "favicon generator"
+    url: "https://favicon.io"
+    description:
+      zh-CN: "在线制作网站图标"
+      en-US: "Generate favicons from text, image, or emoji"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "Lorem Ipsum"
+      en-US: "Lorem Ipsum"
+    url: "https://www.lipsum.com"
+    description:
+      zh-CN: "随机生成文字段落以占用设计空间"
+      en-US: "Lorem ipsum placeholder text generator"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "WordArt"
+      en-US: "WordArt"
+    url: "https://wordart.com"
+    description:
+      zh-CN: "词云图设计，免费创建词云"
+      en-US: "Online word cloud generator"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "地图慧"
+      en-US: "Binditu"
+    url: "https://binditu.bindcloud.cn"
+    description:
+      zh-CN: "三步即可生成你想要的地图"
+      en-US: "Easy map creation tool"
+    category: "design-tools"
+
+  - name:
+      zh-CN: "堆友"
+      en-US: "D.design"
+    url: "https://d.design"
+    description:
+      zh-CN: "3D在线编辑器，阿里巴巴出品免费商用"
+      en-US: "3D online editor by Alibaba"
+    category: "design-tools"
+
+  # ==================== 设计资源 - 图标素材 ====================
   - name:
       zh-CN: "IconFont"
       en-US: "IconFont"
@@ -197,44 +559,160 @@ sites:
     description:
       zh-CN: "阿里巴巴矢量图标库"
       en-US: "Alibaba vector icon library"
-    icon: "/icons/iconfont.png"
-    category: "design-assets"
-
-  # ========== 开发工具 ==========
-  - name:
-      zh-CN: "VS Code"
-      en-US: "VS Code"
-    url: "https://code.visualstudio.com"
-    description:
-      zh-CN: "微软开源的代码编辑器"
-      en-US: "Microsoft's open source code editor"
-    icon: "/icons/vscode.png"
-    category: "development"
-    tags:
-      - "编辑器"
-      - "开发"
+    category: "design-icons"
 
   - name:
-      zh-CN: "Stack Overflow"
-      en-US: "Stack Overflow"
-    url: "https://stackoverflow.com"
+      zh-CN: "Font Awesome"
+      en-US: "Font Awesome"
+    url: "https://fontawesome.com"
     description:
-      zh-CN: "全球最大的程序员问答社区"
-      en-US: "World's largest developer Q&A community"
-    icon: "/icons/stackoverflow.png"
-    category: "development"
+      zh-CN: "著名的图片字体网站，很多icon免费用"
+      en-US: "Popular icon font and CSS toolkit"
+    category: "design-icons"
+    featured: true
 
   - name:
-      zh-CN: "npm"
-      en-US: "npm"
-    url: "https://www.npmjs.com"
+      zh-CN: "flaticon"
+      en-US: "flaticon"
+    url: "https://www.flaticon.com"
     description:
-      zh-CN: "JavaScript包管理平台"
-      en-US: "JavaScript package registry"
-    icon: "/icons/npm.png"
-    category: "development"
+      zh-CN: "平面图标获取，有很多精美漂亮的图标"
+      en-US: "Database of free vector icons"
+    category: "design-icons"
 
-  # ========== 效率工具 ==========
+  - name:
+      zh-CN: "HeroIcons"
+      en-US: "HeroIcons"
+    url: "https://heroicons.com"
+    description:
+      zh-CN: "现代SVG网页图标素材站"
+      en-US: "Beautiful hand-crafted SVG icons"
+    category: "design-icons"
+
+  - name:
+      zh-CN: "Icon Ninja"
+      en-US: "Icon Ninja"
+    url: "https://www.iconninja.com"
+    description:
+      zh-CN: "几十万个免费图标素材搜索下载"
+      en-US: "Search engine for free icons"
+    category: "design-icons"
+
+  - name:
+      zh-CN: "Emoji Cheat Sheet"
+      en-US: "Emoji Cheat Sheet"
+    url: "https://www.webfx.com/tools/emoji-cheat-sheet"
+    description:
+      zh-CN: "用于各种页面好看的emoji素材"
+      en-US: "Complete emoji cheat sheet"
+    category: "design-icons"
+
+  - name:
+      zh-CN: "Emojipedia"
+      en-US: "Emojipedia"
+    url: "https://emojipedia.org"
+    description:
+      zh-CN: "在线搜索复制Emoji表情的网站"
+      en-US: "Emoji search engine and reference"
+    category: "design-icons"
+
+  # ==================== 设计资源 - 图片素材 ====================
+  - name:
+      zh-CN: "Unsplash"
+      en-US: "Unsplash"
+    url: "https://unsplash.com"
+    description:
+      zh-CN: "免费高清图片素材库"
+      en-US: "Free high-resolution photos"
+    category: "design-images"
+    tags: ["图片", "免费"]
+
+  - name:
+      zh-CN: "GIPHY"
+      en-US: "GIPHY"
+    url: "https://giphy.com"
+    description:
+      zh-CN: "众多GIF素材，供你选择"
+      en-US: "Search engine for GIFs"
+    category: "design-images"
+
+  - name:
+      zh-CN: "包图网"
+      en-US: "Ibaotu"
+    url: "https://ibaotu.com"
+    description:
+      zh-CN: "平面设计素材网站"
+      en-US: "Design resources and templates"
+    category: "design-images"
+
+  - name:
+      zh-CN: "LookAE"
+      en-US: "LookAE"
+    url: "https://www.lookae.com"
+    description:
+      zh-CN: "大众脸影视后期特效，精品特效素材"
+      en-US: "Video effects and templates"
+    category: "design-images"
+
+  - name:
+      zh-CN: "书生CG资源站"
+      en-US: "Shusheng CG"
+    url: "http://c4dsky.com"
+    description:
+      zh-CN: "C4D教程AE模板PR模板FCPX插件下载"
+      en-US: "CG resources and tutorials"
+    category: "design-images"
+
+  # ==================== 设计资源 - 字体资源 ====================
+  - name:
+      zh-CN: "Google Fonts"
+      en-US: "Google Fonts"
+    url: "https://fonts.google.com"
+    description:
+      zh-CN: "获取谷歌字体，为Web设计服务"
+      en-US: "Free web fonts by Google"
+    category: "design-fonts"
+    featured: true
+
+  - name:
+      zh-CN: "求字体网"
+      en-US: "Qiuziti"
+    url: "https://www.qiuziti.com"
+    description:
+      zh-CN: "海量字体库，可识别多国语言字体"
+      en-US: "Font identification and download"
+    category: "design-fonts"
+
+  - name:
+      zh-CN: "Type Scale"
+      en-US: "Type Scale"
+    url: "https://type-scale.com"
+    description:
+      zh-CN: "快速在线查看字体合适大小，CSS必备"
+      en-US: "Visual type scale calculator"
+    category: "design-fonts"
+
+  # ==================== 效率工具 - 在线文档 ====================
+  - name:
+      zh-CN: "石墨文档"
+      en-US: "Shimo"
+    url: "https://shimo.im"
+    description:
+      zh-CN: "全新一代云端Office，面向未来的办公软件"
+      en-US: "Cloud-based collaborative office suite"
+    category: "prod-docs"
+    featured: true
+
+  - name:
+      zh-CN: "微信Markdown编辑器"
+      en-US: "WeChat MD Editor"
+    url: "https://doocs.github.io/md"
+    description:
+      zh-CN: "微信公众号文章用markdown写"
+      en-US: "Markdown editor for WeChat articles"
+    category: "prod-docs"
+
+  # ==================== 效率工具 - 笔记工具 ====================
   - name:
       zh-CN: "Notion"
       en-US: "Notion"
@@ -242,36 +720,102 @@ sites:
     description:
       zh-CN: "All-in-one工作空间"
       en-US: "All-in-one workspace"
-    icon: "/icons/notion.png"
-    category: "productivity"
-    tags:
-      - "笔记"
-      - "协作"
+    category: "prod-notes"
+    tags: ["笔记", "协作"]
     featured: true
 
   - name:
-      zh-CN: "Trello"
-      en-US: "Trello"
-    url: "https://trello.com"
+      zh-CN: "幕布"
+      en-US: "Mubu"
+    url: "https://mubu.com"
     description:
-      zh-CN: "可视化项目管理工具"
-      en-US: "Visual project management tool"
-    icon: "/icons/trello.png"
-    category: "productivity"
+      zh-CN: "极简大纲笔记，一键生成思维导图"
+      en-US: "Outliner with mind map generation"
+    category: "prod-notes"
 
-  # ========== 学习资源 ==========
+  # ==================== 效率工具 - 文件处理 ====================
   - name:
-      zh-CN: "MDN Web Docs"
-      en-US: "MDN Web Docs"
-    url: "https://developer.mozilla.org"
+      zh-CN: "白描网页版"
+      en-US: "Baimiao OCR"
+    url: "https://web.baimiaoapp.com"
     description:
-      zh-CN: "Web开发权威文档"
-      en-US: "Authoritative web development docs"
-    icon: "/icons/mdn.png"
-    category: "resources"
-    tags:
-      - "文档"
-      - "Web"
+      zh-CN: "超级OCR识别，识别最准确的服务"
+      en-US: "Accurate OCR service"
+    category: "prod-files"
+
+  - name:
+      zh-CN: "HOTBOX"
+      en-US: "HOTBOX"
+    url: "https://www.hotbox.fun"
+    description:
+      zh-CN: "流媒体、HTTP文件、种子、磁力链解析下载"
+      en-US: "Multi-source file download service"
+    category: "prod-files"
+
+  - name:
+      zh-CN: "SMS ACTIVATE"
+      en-US: "SMS ACTIVATE"
+    url: "https://sms-activate.org"
+    description:
+      zh-CN: "虚拟短信验证码激活服务"
+      en-US: "Virtual phone number service"
+    category: "prod-files"
+
+  - name:
+      zh-CN: "IPAddress"
+      en-US: "IPAddress"
+    url: "https://www.ipaddress.com"
+    description:
+      zh-CN: "在线查看你的IP地址"
+      en-US: "Check your IP address online"
+    category: "prod-files"
+
+  - name:
+      zh-CN: "Wayback Machine"
+      en-US: "Wayback Machine"
+    url: "https://web.archive.org"
+    description:
+      zh-CN: "各种知名网站的时光机"
+      en-US: "Internet archive and history"
+    category: "prod-files"
+
+  - name:
+      zh-CN: "PPT宝藏"
+      en-US: "PPT Baozang"
+    url: "https://www.pptbz.com"
+    description:
+      zh-CN: "免费下载精美PPT的地方"
+      en-US: "Free PPT templates download"
+    category: "prod-files"
+
+  # ==================== 学习资源 - 技术博客 ====================
+  - name:
+      zh-CN: "雪山凌狐教程"
+      en-US: "Xueshanlinghu Tutorial"
+    url: "https://www.xueshanlinghu.com"
+    description:
+      zh-CN: "精品教程，易语言、Python等，通俗易懂"
+      en-US: "Quality tutorials for programming"
+    category: "res-blogs"
+    featured: true
+
+  - name:
+      zh-CN: "知识多一点"
+      en-US: "Zsduo"
+    url: "https://zsduo.com"
+    description:
+      zh-CN: "每天进步一点点，活到老学到老"
+      en-US: "Learn something new every day"
+    category: "res-blogs"
+
+  - name:
+      zh-CN: "Python实用宝典"
+      en-US: "Python Practical"
+    url: "https://pythondict.com"
+    description:
+      zh-CN: "优质的Python实战教程及源代码"
+      en-US: "Practical Python tutorials and code"
+    category: "res-blogs"
 
   - name:
       zh-CN: "掘金"
@@ -280,5 +824,247 @@ sites:
     description:
       zh-CN: "中国开发者技术社区"
       en-US: "Chinese developer community"
-    icon: "/icons/juejin.png"
-    category: "resources"
+    category: "res-blogs"
+
+  - name:
+      zh-CN: "Stack Overflow"
+      en-US: "Stack Overflow"
+    url: "https://stackoverflow.com"
+    description:
+      zh-CN: "全球最大的程序员问答社区"
+      en-US: "World's largest developer Q&A community"
+    category: "res-blogs"
+
+  # ==================== 学习资源 - 在线课程 ====================
+  - name:
+      zh-CN: "网易云课堂"
+      en-US: "NetEase Open Class"
+    url: "https://study.163.com"
+    description:
+      zh-CN: "悄悄变强大，在线学习平台"
+      en-US: "Online learning platform"
+    category: "res-courses"
+
+  - name:
+      zh-CN: "doyoudo"
+      en-US: "doyoudo"
+    url: "https://www.doyoudo.com"
+    description:
+      zh-CN: "有思想、有趣的老师带你学习视频剪辑、特效、PS"
+      en-US: "Creative software tutorials"
+    category: "res-courses"
+
+  - name:
+      zh-CN: "中国知识产权远程教育"
+      en-US: "IP Education Platform"
+    url: "https://www.ciptc.org.cn"
+    description:
+      zh-CN: "学习知识产权知识的官方平台"
+      en-US: "Official IP education platform"
+    category: "res-courses"
+
+  - name:
+      zh-CN: "中公网校"
+      en-US: "Zhonggong"
+    url: "https://www.eoffcn.com"
+    description:
+      zh-CN: "国省考、事业单位、教师等公职考试"
+      en-US: "Civil service exam preparation"
+    category: "res-courses"
+
+  # ==================== 学习资源 - 技术社区 ====================
+  - name:
+      zh-CN: "精易论坛"
+      en-US: "Jingyi Forum"
+    url: "https://bbs.125.la"
+    description:
+      zh-CN: "最大的易语言三方论坛，学易语言必逛"
+      en-US: "Largest E-language community"
+    category: "res-community"
+
+  - name:
+      zh-CN: "火山软件开发平台"
+      en-US: "Volcano Platform"
+    url: "https://www.voldp.com"
+    description:
+      zh-CN: "易语言作者吴涛的新力作，跨平台开发"
+      en-US: "Cross-platform development by Wu Tao"
+    category: "res-community"
+
+  - name:
+      zh-CN: "懒人找资源"
+      en-US: "Lazy Resource"
+    url: "https://www.lazyzs.com"
+    description:
+      zh-CN: "各种找得到找不到的资源的结合体网站"
+      en-US: "Resource aggregation website"
+    category: "res-community"
+
+  # ==================== 生活服务 - 求职招聘 ====================
+  - name:
+      zh-CN: "智联招聘"
+      en-US: "Zhaopin"
+    url: "https://www.zhaopin.com"
+    description:
+      zh-CN: "全国权威的求职找工作平台"
+      en-US: "Leading job search platform in China"
+    category: "life-jobs"
+    featured: true
+
+  - name:
+      zh-CN: "前程无忧"
+      en-US: "51job"
+    url: "https://www.51job.com"
+    description:
+      zh-CN: "人才招聘、求职、找工作、培训"
+      en-US: "Comprehensive job and talent platform"
+    category: "life-jobs"
+
+  - name:
+      zh-CN: "智联校园招聘"
+      en-US: "Zhaopin Campus"
+    url: "https://campus.zhaopin.com"
+    description:
+      zh-CN: "大学生企业校园招聘信息"
+      en-US: "Campus recruitment platform"
+    category: "life-jobs"
+
+  - name:
+      zh-CN: "实习僧"
+      en-US: "Shixiseng"
+    url: "https://www.shixiseng.com"
+    description:
+      zh-CN: "助力大学生职业发展，找实习校招"
+      en-US: "Internship and campus job platform"
+    category: "life-jobs"
+
+  - name:
+      zh-CN: "阿里巴巴招聘"
+      en-US: "Alibaba Jobs"
+    url: "https://talent.alibaba.com"
+    description:
+      zh-CN: "阿里巴巴集团招聘官网"
+      en-US: "Alibaba Group careers"
+    category: "life-jobs"
+
+  - name:
+      zh-CN: "应届生求职网"
+      en-US: "Yingjiesheng"
+    url: "https://www.yingjiesheng.com"
+    description:
+      zh-CN: "应届大学毕业生校园招聘信息"
+      en-US: "Fresh graduate job platform"
+    category: "life-jobs"
+
+  - name:
+      zh-CN: "职朋"
+      en-US: "Zhipeng"
+    url: "https://www.zhipeng.cc"
+    description:
+      zh-CN: "工资待遇、面试经验、公司点评"
+      en-US: "Salary and company reviews"
+    category: "life-jobs"
+
+  # ==================== 生活服务 - 邮箱服务 ====================
+  - name:
+      zh-CN: "QQ邮箱"
+      en-US: "QQ Mail"
+    url: "https://mail.qq.com"
+    description:
+      zh-CN: "腾讯QQ邮箱服务"
+      en-US: "Tencent QQ email service"
+    category: "life-email"
+
+  - name:
+      zh-CN: "163邮箱"
+      en-US: "163 Mail"
+    url: "https://mail.163.com"
+    description:
+      zh-CN: "网易163邮箱服务"
+      en-US: "NetEase 163 email service"
+    category: "life-email"
+
+  - name:
+      zh-CN: "126邮箱"
+      en-US: "126 Mail"
+    url: "https://mail.126.com"
+    description:
+      zh-CN: "网易126邮箱服务"
+      en-US: "NetEase 126 email service"
+    category: "life-email"
+
+  # ==================== 生活服务 - 政务服务 ====================
+  - name:
+      zh-CN: "中国商标网"
+      en-US: "CTMO"
+    url: "https://sbj.cnipa.gov.cn"
+    description:
+      zh-CN: "官方商标检索系统，查商标近似的好帮手"
+      en-US: "Official trademark search system"
+    category: "life-gov"
+
+  - name:
+      zh-CN: "商标分类表"
+      en-US: "Trademark Classification"
+    url: "https://www.quandashi.com/nice"
+    description:
+      zh-CN: "好用的第三方商标分类表"
+      en-US: "Trademark classification reference"
+    category: "life-gov"
+
+  - name:
+      zh-CN: "FlightAware"
+      en-US: "FlightAware"
+    url: "https://flightaware.com"
+    description:
+      zh-CN: "全球航班状态跟踪查询"
+      en-US: "Global flight tracking"
+    category: "life-gov"
+
+  # ==================== 软件资源 ====================
+  - name:
+      zh-CN: "果核剥壳"
+      en-US: "Ghxi"
+    url: "https://www.ghxi.com"
+    description:
+      zh-CN: "互联网的净土，还原软件的本质"
+      en-US: "Quality software resources"
+    category: "software"
+    featured: true
+
+  - name:
+      zh-CN: "数码荔枝"
+      en-US: "Digitalychee"
+    url: "https://www.lizhi.io"
+    description:
+      zh-CN: "正版软件购买平台"
+      en-US: "Licensed software marketplace"
+    category: "software"
+
+  - name:
+      zh-CN: "广告终结者"
+      en-US: "Ad Terminator"
+    url: "https://www.nicetool.net/embed/ad-terminator.html"
+    description:
+      zh-CN: "完全免费的去广告浏览器插件"
+      en-US: "Free ad-blocking browser extension"
+    category: "software"
+
+  # ==================== 关于本站 ====================
+  - name:
+      zh-CN: "雪晨题库"
+      en-US: "Xuechen Quiz"
+    url: "https://question.zsduo.com"
+    description:
+      zh-CN: "雪山凌狐教程配套题库，海量题库供您进步"
+      en-US: "Quiz bank for tutorials"
+    category: "about"
+
+  - name:
+      zh-CN: "胖狐导航"
+      en-US: "Fat Fox Nav"
+    url: "https://nav.zsduo.com"
+    description:
+      zh-CN: "您正在使用的网址导航站"
+      en-US: "The navigation site you are using"
+    category: "about"
