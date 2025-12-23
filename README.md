@@ -6,6 +6,8 @@
 
 **GitHub**: https://github.com/xueshanlinghu/FatFoxNav
 
+**在线体验**: https://xueshanlinghu.github.io/FatFoxNav/
+
 ## 特性
 
 - 🦊 **配置驱动** - 通过 YAML 配置文件管理网站和分类，无需编写代码
