@@ -45,6 +45,28 @@ npm run build
 docker-compose up -d
 ```
 
+### GitHub Pages 部署
+
+项目已配置 GitHub Actions 自动部署，推送到 `master` 分支会自动触发部署。
+
+#### 使用 GitHub 默认域名
+
+如果使用 `username.github.io/FatFoxNav/` 格式访问，无需额外配置。
+
+#### 使用自定义域名
+
+如果配置了自定义域名（如 `nav.zsduo.com`），需要设置 GitHub 仓库变量：
+
+1. 进入仓库 **Settings** → **Secrets and variables** → **Actions**
+2. 切换到 **Variables** 标签页
+3. 点击 **New repository variable**
+4. 添加变量：
+   - **Name**: `CUSTOM_DOMAIN`
+   - **Value**: `true`
+5. 重新触发部署（推送新代码或手动触发 workflow）
+
+> 注意：同时需要在 GitHub Pages 设置中配置自定义域名，并添加相应的 DNS 记录。
+
 ## 配置说明
 
 ### 网站配置 (data/sites.yaml)
