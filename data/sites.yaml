@@ -551,6 +551,15 @@ sites:
       en-US: "3D online editor by Alibaba"
     category: "design-tools"
 
+  - name:
+      zh-CN: "Pic.net拼图"
+      en-US: "Pic.net Puzzle"
+    url: "https://www.pic.net/tu/zh/app/index.html"
+    description:
+      zh-CN: "在线拼图工具，可实现各种宫格的拼图，免费使用"
+      en-US: "Online puzzle tool for creating various grid layouts, free to use"
+    category: "design-tools"
+
   # ==================== 设计资源 - 图标素材 ====================
   - name:
       zh-CN: "IconFont"
