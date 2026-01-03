@@ -121,8 +121,12 @@ const iconStyles: Record<string, { text: string; bg: string }> = {
   shield: { text: 'text-red-600 dark:text-red-400', bg: 'bg-red-100 dark:bg-red-900/30' }
 }
 
-const currentIconStyle = computed(() => {
-  return iconStyles[props.category.icon] || iconStyles['star']
+const currentIconStyle = computed((): { text: string; bg: string } => {
+  const icon = props.category.icon
+  if (icon && iconStyles[icon]) {
+    return iconStyles[icon]!
+  }
+  return iconStyles['star']!
 })
 
 const iconComponent = computed(() => {
@@ -136,7 +140,7 @@ const iconComponent = computed(() => {
     'stroke-width': '2',
     'stroke-linecap': 'round',
     'stroke-linejoin': 'round',
-    class: style.text
+    class: style?.text || 'text-gray-600'
   }, [h('path', { d: path })])
 })
 </script>
