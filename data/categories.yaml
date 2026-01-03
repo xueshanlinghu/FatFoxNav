@@ -22,34 +22,42 @@ categories:
         name:
           zh-CN: "AI对话"
           en-US: "AI Chat"
+        icon: "message-circle"
       - id: "ai-image"
         name:
           zh-CN: "AI绘画"
           en-US: "AI Image"
+        icon: "image"
       - id: "ai-video"
         name:
           zh-CN: "AI视频"
           en-US: "AI Video"
+        icon: "video"
       - id: "ai-audio"
         name:
           zh-CN: "AI音频"
           en-US: "AI Audio"
+        icon: "music"
       - id: "ai-coding"
         name:
           zh-CN: "AI编程"
           en-US: "AI Coding"
+        icon: "terminal"
       - id: "ai-writing"
         name:
           zh-CN: "AI写作"
           en-US: "AI Writing"
+        icon: "pen"
       - id: "ai-all-in-one"
         name:
           zh-CN: "AI综合"
           en-US: "AI All-in-One"
+        icon: "layers"
       - id: "ai-navigation"
         name:
           zh-CN: "AI导航"
           en-US: "AI Navigation"
+        icon: "compass"
 
   # ========== 开发工具 ==========
   - id: "development"
@@ -62,18 +70,22 @@ categories:
         name:
           zh-CN: "前端框架"
           en-US: "Frontend"
+        icon: "layout"
       - id: "dev-docs"
         name:
           zh-CN: "开发文档"
           en-US: "Dev Docs"
+        icon: "file-text"
       - id: "dev-online-ide"
         name:
           zh-CN: "在线IDE"
           en-US: "Online IDE"
+        icon: "monitor"
       - id: "dev-hosting"
         name:
           zh-CN: "代码托管"
           en-US: "Code Hosting"
+        icon: "git-branch"
 
   # ========== 设计资源 ==========
   - id: "design"
@@ -86,22 +98,27 @@ categories:
         name:
           zh-CN: "灵感采集"
           en-US: "Inspiration"
+        icon: "lightbulb"
       - id: "design-tools"
         name:
           zh-CN: "设计工具"
           en-US: "Design Tools"
+        icon: "tool"
       - id: "design-icons"
         name:
           zh-CN: "图标素材"
           en-US: "Icons"
+        icon: "smile"
       - id: "design-images"
         name:
           zh-CN: "图片素材"
           en-US: "Images"
+        icon: "image"
       - id: "design-fonts"
         name:
           zh-CN: "字体资源"
           en-US: "Fonts"
+        icon: "type"
 
   # ========== 效率工具 ==========
   - id: "productivity"
@@ -114,14 +131,17 @@ categories:
         name:
           zh-CN: "在线文档"
           en-US: "Online Docs"
+        icon: "file-text"
       - id: "prod-notes"
         name:
           zh-CN: "笔记工具"
           en-US: "Note Tools"
+        icon: "edit"
       - id: "prod-files"
         name:
           zh-CN: "文件处理"
           en-US: "File Tools"
+        icon: "folder"
 
   # ========== 学习资源 ==========
   - id: "resources"
@@ -134,14 +154,17 @@ categories:
         name:
           zh-CN: "技术博客"
           en-US: "Tech Blogs"
+        icon: "rss"
       - id: "res-courses"
         name:
           zh-CN: "在线课程"
           en-US: "Online Courses"
+        icon: "graduation-cap"
       - id: "res-community"
         name:
           zh-CN: "技术社区"
           en-US: "Tech Community"
+        icon: "users"
 
   # ========== 生活服务 ==========
   - id: "life-services"
@@ -154,14 +177,17 @@ categories:
         name:
           zh-CN: "求职招聘"
           en-US: "Job Hunting"
+        icon: "briefcase"
       - id: "life-email"
         name:
           zh-CN: "邮箱服务"
           en-US: "Email Services"
+        icon: "mail"
       - id: "life-gov"
         name:
           zh-CN: "政务服务"
           en-US: "Government Services"
+        icon: "shield"
 
   # ========== 软件资源 ==========
   - id: "software"
