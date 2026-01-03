@@ -1211,3 +1211,4 @@ sites:
       zh-CN: "您正在使用的网址导航站"
       en-US: "The navigation site you are using"
     category: "about"
+    tags: ["导航", "本站", "网址导航"]
