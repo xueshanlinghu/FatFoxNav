@@ -9,6 +9,7 @@ sites:
       zh-CN: "全球最大的搜索引擎"
       en-US: "World's largest search engine"
     category: "recommended"
+    tags: ["搜索", "工具"]
     featured: true
 
   - name:
@@ -52,6 +53,7 @@ sites:
       zh-CN: "百度推出的AI对话产品"
       en-US: "AI chat product by Baidu"
     category: "ai-chat"
+    tags: ["AI", "对话", "中文"]
 
   # ==================== AI工具 - AI绘画 ====================
   - name:
@@ -72,6 +74,7 @@ sites:
       zh-CN: "OpenAI的AI绘画工具"
       en-US: "AI image generator by OpenAI"
     category: "ai-image"
+    tags: ["AI", "绘画", "图片生成"]
 
   - name:
       zh-CN: "AI图片放大"
@@ -81,6 +84,7 @@ sites:
       zh-CN: "使用AI技术实现图片无损放大"
       en-US: "AI-powered image upscaling"
     category: "ai-image"
+    tags: ["AI", "图片", "放大", "工具"]
 
   # ==================== AI工具 - AI音频 ====================
   - name:
@@ -133,6 +137,7 @@ sites:
       zh-CN: "AI驱动的代码编辑器"
       en-US: "AI-powered code editor"
     category: "ai-coding"
+    tags: ["AI", "编程", "编辑器"]
 
   # ==================== AI工具 - AI写作 ====================
   - name:
@@ -143,6 +148,7 @@ sites:
       zh-CN: "支持音视频翻译、语音转写，使用AI技术"
       en-US: "AI-powered translation and transcription"
     category: "ai-writing"
+    tags: ["AI", "翻译", "字幕"]
 
   - name:
       zh-CN: "易撰微信编辑器"
@@ -152,6 +158,7 @@ sites:
       zh-CN: "可用于微信热点文章撰写，学习标题写作"
       en-US: "WeChat article editor for trending content"
     category: "ai-writing"
+    tags: ["AI", "写作", "微信"]
 
   # ==================== AI工具 - AI导航 ====================
   - name:
@@ -162,6 +169,7 @@ sites:
       zh-CN: "最实用、最热门AI工具集合，帮助你更轻松有效率"
       en-US: "Collection of practical AI tools"
     category: "ai-navigation"
+    tags: ["AI", "导航", "工具集"]
 
   - name:
       zh-CN: "Free ChatGPT Site List"
@@ -171,6 +179,7 @@ sites:
       zh-CN: "收集免费使用ChatGPT站点的列表"
       en-US: "Collection of free ChatGPT sites"
     category: "ai-navigation"
+    tags: ["AI", "ChatGPT", "免费", "列表"]
 
   - name:
       zh-CN: "ChatGPT指令大全"
@@ -180,6 +189,7 @@ sites:
       zh-CN: "精炼过的指令语句，充分发挥ChatGPT的强大功能"
       en-US: "Curated prompts to maximize ChatGPT potential"
     category: "ai-navigation"
+    tags: ["AI", "ChatGPT", "提示词", "教程"]
 
   # ==================== 开发工具 - 前端框架 ====================
   - name:
@@ -190,6 +200,7 @@ sites:
       zh-CN: "简洁、直观、强悍的前端开发框架"
       en-US: "Popular CSS framework for responsive design"
     category: "dev-frontend"
+    tags: ["前端", "框架", "CSS"]
     featured: true
 
   - name:
@@ -200,6 +211,7 @@ sites:
       zh-CN: "稳定、快速、免费的前端开源项目CDN加速服务"
       en-US: "Free CDN for frontend open source projects"
     category: "dev-frontend"
+    tags: ["CDN", "前端", "免费"]
 
   - name:
       zh-CN: "Layui"
@@ -209,6 +221,7 @@ sites:
       zh-CN: "面向全层次的前后端开发者，易上手且开源免费"
       en-US: "Easy-to-use open source web UI framework"
     category: "dev-frontend"
+    tags: ["前端", "框架", "UI"]
 
   - name:
       zh-CN: "Layuimini"
@@ -218,6 +231,7 @@ sites:
       zh-CN: "基于Layui的最简洁、易用的后台框架模板"
       en-US: "Minimal admin template based on Layui"
     category: "dev-frontend"
+    tags: ["前端", "模板", "后台"]
 
   - name:
       zh-CN: "50个Bootstrap主题"
@@ -227,6 +241,7 @@ sites:
       zh-CN: "收集精选的Bootstrap主题模板下载"
       en-US: "Collection of free Bootstrap themes"
     category: "dev-frontend"
+    tags: ["Bootstrap", "主题", "模板", "免费"]
 
   - name:
       zh-CN: "40个Bootstrap后台模板"
@@ -236,6 +251,7 @@ sites:
       zh-CN: "免费的Bootstrap后台管理界面模板"
       en-US: "Free Bootstrap admin dashboard templates"
     category: "dev-frontend"
+    tags: ["Bootstrap", "后台", "模板", "免费"]
 
   # ==================== 开发工具 - 开发文档 ====================
   - name:
@@ -257,6 +273,7 @@ sites:
       zh-CN: "HTML实体代码参考文档"
       en-US: "Complete HTML entity reference"
     category: "dev-docs"
+    tags: ["HTML", "文档", "参考"]
 
   - name:
       zh-CN: "codingheroes"
@@ -266,6 +283,7 @@ sites:
       zh-CN: "Web开发老师JONAS的Udemy资源"
       en-US: "Jonas' web development resources"
     category: "dev-docs"
+    tags: ["Web", "教程", "资源"]
 
   # ==================== 开发工具 - 在线IDE ====================
   - name:
@@ -276,6 +294,7 @@ sites:
       zh-CN: "在线写HTML、CSS、JS代码并渲染"
       en-US: "Online code editor for frontend development"
     category: "dev-online-ide"
+    tags: ["在线编辑", "前端", "代码"]
     featured: true
 
   - name:
@@ -286,6 +305,7 @@ sites:
       zh-CN: "在线代码游乐场，可添加Bootstrap、Vue等"
       en-US: "Online code playground with framework support"
     category: "dev-online-ide"
+    tags: ["在线编辑", "前端", "框架"]
 
   - name:
       zh-CN: "Vditor"
@@ -295,6 +315,7 @@ sites:
       zh-CN: "优质的Markdown编辑器，支持即时渲染"
       en-US: "Excellent Markdown editor with live preview"
     category: "dev-online-ide"
+    tags: ["Markdown", "编辑器", "在线"]
 
   - name:
       zh-CN: "阿里云Notebook"
@@ -304,6 +325,7 @@ sites:
       zh-CN: "阿里云天池出品在线notebook开发平台"
       en-US: "Aliyun Tianchi online notebook platform"
     category: "dev-online-ide"
+    tags: ["Jupyter", "Python", "在线开发"]
 
   - name:
       zh-CN: "Javascript生成目录树"
@@ -313,6 +335,7 @@ sites:
       zh-CN: "免费的JavaScript生成目录树代码"
       en-US: "Free JavaScript directory tree component"
     category: "dev-online-ide"
+    tags: ["JavaScript", "组件", "工具"]
 
   # ==================== 开发工具 - 代码托管 ====================
   - name:
@@ -381,6 +404,7 @@ sites:
       zh-CN: "全球美图收藏采集站"
       en-US: "Global image collection platform"
     category: "design-inspiration"
+    tags: ["灵感", "图片", "收藏"]
 
   - name:
       zh-CN: "Collect UI"
@@ -390,6 +414,7 @@ sites:
       zh-CN: "网站UI设计灵感查找地"
       en-US: "Daily UI design inspiration"
     category: "design-inspiration"
+    tags: ["UI", "设计", "灵感"]
 
   - name:
       zh-CN: "Clean Websites灵感"
@@ -399,6 +424,7 @@ sites:
       zh-CN: "干净的网站设计灵感学习"
       en-US: "Clean website design inspiration"
     category: "design-inspiration"
+    tags: ["网页设计", "灵感", "极简"]
 
   - name:
       zh-CN: "Design patterns"
@@ -408,6 +434,7 @@ sites:
       zh-CN: "网站体验设计模式的灵感学习"
       en-US: "UI design patterns inspiration"
     category: "design-inspiration"
+    tags: ["UI", "设计模式", "灵感"]
 
   - name:
       zh-CN: "Sneakpeekit"
@@ -417,6 +444,7 @@ sites:
       zh-CN: "线框设计草稿图模板下载"
       en-US: "Printable sketch sheets for design"
     category: "design-inspiration"
+    tags: ["线框图", "模板", "原型"]
 
   # ==================== 设计资源 - 设计工具 ====================
   - name:
@@ -438,6 +466,7 @@ sites:
       zh-CN: "在线平面设计工具，免费页面设计"
       en-US: "Online graphic design tool"
     category: "design-tools"
+    tags: ["设计", "在线工具", "平面"]
 
   - name:
       zh-CN: "创客贴"
@@ -447,6 +476,7 @@ sites:
       zh-CN: "让设计触手可得，平面图设计的好帮手"
       en-US: "Easy graphic design platform"
     category: "design-tools"
+    tags: ["设计", "平面", "模板"]
 
   - name:
       zh-CN: "易企秀"
@@ -456,6 +486,7 @@ sites:
       zh-CN: "平面设计、H5页面等，手到擒来"
       en-US: "H5 page and poster design platform"
     category: "design-tools"
+    tags: ["H5", "设计", "海报"]
 
   - name:
       zh-CN: "凡科快图"
@@ -465,6 +496,7 @@ sites:
       zh-CN: "极简图片编辑/丰富版权资源/海量模板"
       en-US: "Simple image editor with templates"
     category: "design-tools"
+    tags: ["图片编辑", "模板", "在线"]
 
   - name:
       zh-CN: "TinyPNG"
@@ -474,6 +506,7 @@ sites:
       zh-CN: "无损图片压缩站点，免费"
       en-US: "Smart PNG and JPEG compression"
     category: "design-tools"
+    tags: ["图片压缩", "优化", "免费"]
 
   - name:
       zh-CN: "Balsamiq Cloud"
@@ -601,6 +634,7 @@ sites:
       zh-CN: "阿里巴巴矢量图标库"
       en-US: "Alibaba vector icon library"
     category: "design-icons"
+    tags: ["图标", "矢量", "免费"]
 
   - name:
       zh-CN: "Font Awesome"
@@ -610,6 +644,7 @@ sites:
       zh-CN: "著名的图片字体网站，很多icon免费用"
       en-US: "Popular icon font and CSS toolkit"
     category: "design-icons"
+    tags: ["图标", "字体", "免费"]
     featured: true
 
   - name:
@@ -620,6 +655,7 @@ sites:
       zh-CN: "平面图标获取，有很多精美漂亮的图标"
       en-US: "Database of free vector icons"
     category: "design-icons"
+    tags: ["图标", "矢量", "素材"]
 
   - name:
       zh-CN: "HeroIcons"
@@ -713,6 +749,7 @@ sites:
       zh-CN: "获取谷歌字体，为Web设计服务"
       en-US: "Free web fonts by Google"
     category: "design-fonts"
+    tags: ["字体", "免费", "Web"]
     featured: true
 
   - name:
@@ -723,6 +760,7 @@ sites:
       zh-CN: "海量字体库，可识别多国语言字体"
       en-US: "Font identification and download"
     category: "design-fonts"
+    tags: ["字体", "识别", "下载"]
 
   - name:
       zh-CN: "Type Scale"
@@ -732,6 +770,7 @@ sites:
       zh-CN: "快速在线查看字体合适大小，CSS必备"
       en-US: "Visual type scale calculator"
     category: "design-fonts"
+    tags: ["字体", "CSS", "工具"]
 
   # ==================== 效率工具 - 在线文档 ====================
   - name:
