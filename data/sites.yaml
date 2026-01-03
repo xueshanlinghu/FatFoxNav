@@ -82,6 +82,38 @@ sites:
       en-US: "AI-powered image upscaling"
     category: "ai-image"
 
+  # ==================== AI工具 - AI音频 ====================
+  - name:
+      zh-CN: "Suno"
+      en-US: "Suno"
+    url: "https://suno.ai"
+    description:
+      zh-CN: "Suno官网，AI音乐生成平台"
+      en-US: "Suno official website, AI music generation platform"
+    category: "ai-audio"
+    tags: ["AI", "音乐"]
+    featured: true
+
+  - name:
+      zh-CN: "海绵音乐"
+      en-US: "Haimian Music"
+    url: "https://haimian.com"
+    description:
+      zh-CN: "免费生成AI音乐"
+      en-US: "Free AI music generation"
+    category: "ai-audio"
+    tags: ["AI", "音乐", "免费"]
+
+  - name:
+      zh-CN: "Suno AI乐器提示词指南"
+      en-US: "Suno AI Instruments Prompt Guide"
+    url: "https://sunoai-instrument.jfzero.top"
+    description:
+      zh-CN: "200+乐器提示词，解锁AI音乐创造力"
+      en-US: "200+ instrument prompts to unlock AI music creativity"
+    category: "ai-audio"
+    tags: ["AI", "音乐", "提示词", "教程"]
+
   # ==================== AI工具 - AI编程 ====================
   - name:
       zh-CN: "GitHub Copilot"
