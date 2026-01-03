@@ -520,6 +520,7 @@ sites:
       zh-CN: "在线线框设计网站草图"
       en-US: "Cloud-based wireframing tool"
     category: "design-tools"
+    tags: ["线框图", "原型", "设计"]
 
   - name:
       zh-CN: "Adobe Color"
@@ -529,6 +530,7 @@ sites:
       zh-CN: "免费的色轮搭配，网站颜色搭配利器"
       en-US: "Color wheel and palette generator"
     category: "design-tools"
+    tags: ["配色", "色轮", "工具"]
 
   - name:
       zh-CN: "Color Hunt"
@@ -538,6 +540,7 @@ sites:
       zh-CN: "各种调色板，做Web配色找它就对了"
       en-US: "Curated color palettes for designers"
     category: "design-tools"
+    tags: ["配色", "调色板", "灵感"]
 
   - name:
       zh-CN: "Open color"
@@ -547,6 +550,7 @@ sites:
       zh-CN: "开源颜色调色板，支持颜色的轻重"
       en-US: "Open source color scheme"
     category: "design-tools"
+    tags: ["配色", "开源", "调色板"]
 
   - name:
       zh-CN: "Color Contrast Checker"
@@ -556,6 +560,7 @@ sites:
       zh-CN: "颜色对比度评分，有利于读者阅读"
       en-US: "Check color contrast for accessibility"
     category: "design-tools"
+    tags: ["配色", "对比度", "无障碍"]
 
   - name:
       zh-CN: "CSS3 button generator"
@@ -565,6 +570,7 @@ sites:
       zh-CN: "在线生成精美按钮的站点"
       en-US: "Generate CSS3 buttons online"
     category: "design-tools"
+    tags: ["CSS", "按钮", "生成器"]
 
   - name:
       zh-CN: "Crop a circle"
@@ -574,6 +580,7 @@ sites:
       zh-CN: "在线将图片切成圆形"
       en-US: "Crop images into circles online"
     category: "design-tools"
+    tags: ["图片处理", "裁剪", "在线"]
 
   - name:
       zh-CN: "favicon generator"
@@ -583,6 +590,7 @@ sites:
       zh-CN: "在线制作网站图标"
       en-US: "Generate favicons from text, image, or emoji"
     category: "design-tools"
+    tags: ["favicon", "图标", "生成器"]
 
   - name:
       zh-CN: "Lorem Ipsum"
@@ -592,6 +600,7 @@ sites:
       zh-CN: "随机生成文字段落以占用设计空间"
       en-US: "Lorem ipsum placeholder text generator"
     category: "design-tools"
+    tags: ["占位符", "文本", "工具"]
 
   - name:
       zh-CN: "WordArt"
@@ -601,6 +610,7 @@ sites:
       zh-CN: "词云图设计，免费创建词云"
       en-US: "Online word cloud generator"
     category: "design-tools"
+    tags: ["词云", "可视化", "设计"]
 
   - name:
       zh-CN: "地图慧"
@@ -610,6 +620,7 @@ sites:
       zh-CN: "三步即可生成你想要的地图"
       en-US: "Easy map creation tool"
     category: "design-tools"
+    tags: ["地图", "可视化", "工具"]
 
   - name:
       zh-CN: "堆友"
@@ -619,6 +630,7 @@ sites:
       zh-CN: "3D在线编辑器，阿里巴巴出品免费商用"
       en-US: "3D online editor by Alibaba"
     category: "design-tools"
+    tags: ["3D", "编辑器", "免费"]
 
   - name:
       zh-CN: "Pic.net拼图"
@@ -628,6 +640,7 @@ sites:
       zh-CN: "在线拼图工具，可实现各种宫格的拼图，免费使用"
       en-US: "Online puzzle tool for creating various grid layouts, free to use"
     category: "design-tools"
+    tags: ["拼图", "图片", "在线工具"]
 
   # ==================== 设计资源 - 图标素材 ====================
   - name:
@@ -669,6 +682,7 @@ sites:
       zh-CN: "现代SVG网页图标素材站"
       en-US: "Beautiful hand-crafted SVG icons"
     category: "design-icons"
+    tags: ["图标", "SVG", "免费"]
 
   - name:
       zh-CN: "Icon Ninja"
@@ -678,6 +692,7 @@ sites:
       zh-CN: "几十万个免费图标素材搜索下载"
       en-US: "Search engine for free icons"
     category: "design-icons"
+    tags: ["图标", "搜索", "免费"]
 
   - name:
       zh-CN: "Emoji Cheat Sheet"
@@ -687,6 +702,7 @@ sites:
       zh-CN: "用于各种页面好看的emoji素材"
       en-US: "Complete emoji cheat sheet"
     category: "design-icons"
+    tags: ["Emoji", "表情", "素材"]
 
   - name:
       zh-CN: "Emojipedia"
@@ -696,6 +712,7 @@ sites:
       zh-CN: "在线搜索复制Emoji表情的网站"
       en-US: "Emoji search engine and reference"
     category: "design-icons"
+    tags: ["Emoji", "表情", "搜索"]
 
   # ==================== 设计资源 - 图片素材 ====================
   - name:
@@ -716,6 +733,7 @@ sites:
       zh-CN: "众多GIF素材，供你选择"
       en-US: "Search engine for GIFs"
     category: "design-images"
+    tags: ["GIF", "动图", "素材"]
 
   - name:
       zh-CN: "包图网"
@@ -725,6 +743,7 @@ sites:
       zh-CN: "平面设计素材网站"
       en-US: "Design resources and templates"
     category: "design-images"
+    tags: ["设计", "素材", "模板"]
 
   - name:
       zh-CN: "LookAE"
@@ -734,6 +753,7 @@ sites:
       zh-CN: "大众脸影视后期特效，精品特效素材"
       en-US: "Video effects and templates"
     category: "design-images"
+    tags: ["AE", "特效", "素材"]
 
   - name:
       zh-CN: "书生CG资源站"
@@ -743,6 +763,7 @@ sites:
       zh-CN: "C4D教程AE模板PR模板FCPX插件下载"
       en-US: "CG resources and tutorials"
     category: "design-images"
+    tags: ["C4D", "AE", "教程"]
 
   # ==================== 设计资源 - 字体资源 ====================
   - name:
@@ -829,6 +850,7 @@ sites:
       zh-CN: "超级OCR识别，识别最准确的服务"
       en-US: "Accurate OCR service"
     category: "prod-files"
+    tags: ["OCR", "识别", "文字"]
 
   - name:
       zh-CN: "HOTBOX"
@@ -838,6 +860,7 @@ sites:
       zh-CN: "流媒体、HTTP文件、种子、磁力链解析下载"
       en-US: "Multi-source file download service"
     category: "prod-files"
+    tags: ["下载", "磁力链", "工具"]
 
   - name:
       zh-CN: "SMS ACTIVATE"
@@ -847,6 +870,7 @@ sites:
       zh-CN: "虚拟短信验证码激活服务"
       en-US: "Virtual phone number service"
     category: "prod-files"
+    tags: ["短信", "验证码", "虚拟号码"]
 
   - name:
       zh-CN: "IPAddress"
@@ -856,6 +880,7 @@ sites:
       zh-CN: "在线查看你的IP地址"
       en-US: "Check your IP address online"
     category: "prod-files"
+    tags: ["IP", "查询", "工具"]
 
   - name:
       zh-CN: "Wayback Machine"
@@ -865,6 +890,7 @@ sites:
       zh-CN: "各种知名网站的时光机"
       en-US: "Internet archive and history"
     category: "prod-files"
+    tags: ["时光机", "存档", "历史"]
 
   - name:
       zh-CN: "PPT宝藏"
@@ -874,6 +900,7 @@ sites:
       zh-CN: "免费下载精美PPT的地方"
       en-US: "Free PPT templates download"
     category: "prod-files"
+    tags: ["PPT", "模板", "免费"]
 
   # ==================== 学习资源 - 技术博客 ====================
   - name:
@@ -936,6 +963,7 @@ sites:
       zh-CN: "悄悄变强大，在线学习平台"
       en-US: "Online learning platform"
     category: "res-courses"
+    tags: ["在线课程", "学习", "视频教程"]
 
   - name:
       zh-CN: "doyoudo"
@@ -945,6 +973,7 @@ sites:
       zh-CN: "有思想、有趣的老师带你学习视频剪辑、特效、PS"
       en-US: "Creative software tutorials"
     category: "res-courses"
+    tags: ["视频剪辑", "PS", "教程"]
 
   - name:
       zh-CN: "中国知识产权远程教育"
@@ -954,6 +983,7 @@ sites:
       zh-CN: "学习知识产权知识的官方平台"
       en-US: "Official IP education platform"
     category: "res-courses"
+    tags: ["知识产权", "培训", "官方"]
 
   - name:
       zh-CN: "中公网校"
@@ -963,6 +993,7 @@ sites:
       zh-CN: "国省考、事业单位、教师等公职考试"
       en-US: "Civil service exam preparation"
     category: "res-courses"
+    tags: ["公务员", "考试", "培训"]
 
   # ==================== 学习资源 - 技术社区 ====================
   - name:
@@ -973,6 +1004,7 @@ sites:
       zh-CN: "最大的易语言三方论坛，学易语言必逛"
       en-US: "Largest E-language community"
     category: "res-community"
+    tags: ["易语言", "论坛", "社区"]
 
   - name:
       zh-CN: "火山软件开发平台"
@@ -982,6 +1014,7 @@ sites:
       zh-CN: "易语言作者吴涛的新力作，跨平台开发"
       en-US: "Cross-platform development by Wu Tao"
     category: "res-community"
+    tags: ["易语言", "跨平台", "开发"]
 
   - name:
       zh-CN: "懒人找资源"
@@ -991,6 +1024,7 @@ sites:
       zh-CN: "各种找得到找不到的资源的结合体网站"
       en-US: "Resource aggregation website"
     category: "res-community"
+    tags: ["资源", "导航", "聚合"]
 
   # ==================== 生活服务 - 求职招聘 ====================
   - name:
@@ -1073,6 +1107,7 @@ sites:
       zh-CN: "腾讯QQ邮箱服务"
       en-US: "Tencent QQ email service"
     category: "life-email"
+    tags: ["邮箱", "QQ", "腾讯"]
 
   - name:
       zh-CN: "163邮箱"
@@ -1082,6 +1117,7 @@ sites:
       zh-CN: "网易163邮箱服务"
       en-US: "NetEase 163 email service"
     category: "life-email"
+    tags: ["邮箱", "网易", "163"]
 
   - name:
       zh-CN: "126邮箱"
@@ -1091,6 +1127,7 @@ sites:
       zh-CN: "网易126邮箱服务"
       en-US: "NetEase 126 email service"
     category: "life-email"
+    tags: ["邮箱", "网易", "126"]
 
   # ==================== 生活服务 - 政务服务 ====================
   - name:
@@ -1101,6 +1138,7 @@ sites:
       zh-CN: "官方商标检索系统，查商标近似的好帮手"
       en-US: "Official trademark search system"
     category: "life-gov"
+    tags: ["商标", "查询", "官方"]
 
   - name:
       zh-CN: "商标分类表"
@@ -1110,6 +1148,7 @@ sites:
       zh-CN: "好用的第三方商标分类表"
       en-US: "Trademark classification reference"
     category: "life-gov"
+    tags: ["商标", "分类", "工具"]
 
   - name:
       zh-CN: "FlightAware"
@@ -1119,6 +1158,7 @@ sites:
       zh-CN: "全球航班状态跟踪查询"
       en-US: "Global flight tracking"
     category: "life-gov"
+    tags: ["航班", "查询", "跟踪"]
 
   # ==================== 软件资源 ====================
   - name:
@@ -1161,6 +1201,7 @@ sites:
       zh-CN: "雪山凌狐教程配套题库，海量题库供您进步"
       en-US: "Quiz bank for tutorials"
     category: "about"
+    tags: ["题库", "学习", "教程"]
 
   - name:
       zh-CN: "胖狐导航"
