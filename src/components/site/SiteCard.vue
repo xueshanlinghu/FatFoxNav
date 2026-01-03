@@ -29,6 +29,19 @@
       <div class="card-info">
         <h3 class="card-title">{{ localizedName }}</h3>
         <p class="card-desc">{{ localizedDesc }}</p>
+        
+        <!-- 标签区域 -->
+        <div v-if="site.tags && site.tags.length > 0" class="card-tags">
+          <span
+            v-for="tag in site.tags"
+            :key="tag"
+            class="tag"
+            @click.prevent="handleTagClick(tag)"
+            :title="locale === 'zh-CN' ? `点击查看更多「${tag}」相关网站` : `Click to see more sites tagged with '${tag}'`"
+          >
+            {{ tag }}
+          </span>
+        </div>
       </div>
     </div>
 
@@ -38,7 +51,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, inject } from 'vue'
 import { useI18n } from 'vue-i18n'
 import type { Site, Locale } from '@/types'
 import SiteIcon from './SiteIcon.vue'
@@ -49,6 +62,9 @@ const props = defineProps<{
 
 const { locale } = useI18n()
 
+// 注入标签筛选函数
+const setCurrentTag = inject<(tag: string) => void>('setCurrentTag')
+
 const localizedName = computed(() => {
   return props.site.name[locale.value as Locale] || props.site.name['zh-CN']
 })
@@ -56,6 +72,14 @@ const localizedName = computed(() => {
 const localizedDesc = computed(() => {
   return props.site.description[locale.value as Locale] || props.site.description['zh-CN']
 })
+
+// 处理标签点击
+const handleTagClick = (tag: string) => {
+  // 使用注入的函数设置当前标签
+  if (setCurrentTag) {
+    setCurrentTag(tag)
+  }
+}
 </script>
 
 <style scoped>
@@ -111,7 +135,31 @@ const localizedDesc = computed(() => {
 
 .card-desc {
   @apply text-sm text-gray-500 dark:text-gray-400
-         line-clamp-2;
+         line-clamp-2 mb-2;
+}
+
+/* 标签区域 */
+.card-tags {
+  @apply flex flex-wrap gap-1.5 mt-2;
+}
+
+.tag {
+  @apply inline-flex items-center
+         px-2 py-0.5 rounded-md
+         text-xs font-medium
+         bg-primary-50 text-primary-600
+         dark:bg-primary-900/30 dark:text-primary-400
+         border border-primary-100 dark:border-primary-800/50
+         transition-all duration-200
+         cursor-pointer
+         hover:bg-primary-100 hover:text-primary-700
+         dark:hover:bg-primary-900/50 dark:hover:text-primary-300
+         hover:border-primary-200 dark:hover:border-primary-700
+         hover:shadow-sm hover:scale-105;
+}
+
+.tag:active {
+  @apply scale-95;
 }
 
 /* 发光效果 */
