@@ -346,6 +346,7 @@ sites:
       zh-CN: "JavaScript包管理平台"
       en-US: "JavaScript package registry"
     category: "dev-hosting"
+    tags: ["npm", "JavaScript", "包管理"]
 
   - name:
       zh-CN: "Server酱"
@@ -355,6 +356,7 @@ sites:
       zh-CN: "从服务器、路由器等设备推消息到手机的工具"
       en-US: "Push notifications from server to mobile"
     category: "dev-hosting"
+    tags: ["推送", "通知", "工具"]
 
   - name:
       zh-CN: "禅道"
@@ -364,6 +366,7 @@ sites:
       zh-CN: "灵活的项目管理软件，覆盖软件开发全周期"
       en-US: "Agile project management software"
     category: "dev-hosting"
+    tags: ["项目管理", "敏捷", "协作"]
 
   - name:
       zh-CN: "Faker Api"
@@ -373,6 +376,7 @@ sites:
       zh-CN: "免费生成假数据用于测试的API接口"
       en-US: "Free fake data API for testing"
     category: "dev-hosting"
+    tags: ["API", "测试", "模拟数据"]
 
   # ==================== 设计资源 - 灵感采集 ====================
   - name:
@@ -781,6 +785,7 @@ sites:
       zh-CN: "全新一代云端Office，面向未来的办公软件"
       en-US: "Cloud-based collaborative office suite"
     category: "prod-docs"
+    tags: ["文档", "协作", "云端"]
     featured: true
 
   - name:
@@ -791,6 +796,7 @@ sites:
       zh-CN: "微信公众号文章用markdown写"
       en-US: "Markdown editor for WeChat articles"
     category: "prod-docs"
+    tags: ["Markdown", "微信", "编辑器"]
 
   # ==================== 效率工具 - 笔记工具 ====================
   - name:
@@ -812,6 +818,7 @@ sites:
       zh-CN: "极简大纲笔记，一键生成思维导图"
       en-US: "Outliner with mind map generation"
     category: "prod-notes"
+    tags: ["笔记", "思维导图", "大纲"]
 
   # ==================== 效率工具 - 文件处理 ====================
   - name:
@@ -877,6 +884,7 @@ sites:
       zh-CN: "精品教程，易语言、Python等，通俗易懂"
       en-US: "Quality tutorials for programming"
     category: "res-blogs"
+    tags: ["教程", "编程", "学习"]
     featured: true
 
   - name:
@@ -887,6 +895,7 @@ sites:
       zh-CN: "每天进步一点点，活到老学到老"
       en-US: "Learn something new every day"
     category: "res-blogs"
+    tags: ["博客", "学习", "技术"]
 
   - name:
       zh-CN: "Python实用宝典"
@@ -896,6 +905,7 @@ sites:
       zh-CN: "优质的Python实战教程及源代码"
       en-US: "Practical Python tutorials and code"
     category: "res-blogs"
+    tags: ["Python", "教程", "实战"]
 
   - name:
       zh-CN: "掘金"
@@ -905,6 +915,7 @@ sites:
       zh-CN: "中国开发者技术社区"
       en-US: "Chinese developer community"
     category: "res-blogs"
+    tags: ["社区", "技术", "开发者"]
 
   - name:
       zh-CN: "Stack Overflow"
@@ -914,6 +925,7 @@ sites:
       zh-CN: "全球最大的程序员问答社区"
       en-US: "World's largest developer Q&A community"
     category: "res-blogs"
+    tags: ["问答", "编程", "社区"]
 
   # ==================== 学习资源 - 在线课程 ====================
   - name:
@@ -989,6 +1001,7 @@ sites:
       zh-CN: "全国权威的求职找工作平台"
       en-US: "Leading job search platform in China"
     category: "life-jobs"
+    tags: ["招聘", "求职", "工作"]
     featured: true
 
   - name:
@@ -999,6 +1012,7 @@ sites:
       zh-CN: "人才招聘、求职、找工作、培训"
       en-US: "Comprehensive job and talent platform"
     category: "life-jobs"
+    tags: ["招聘", "求职", "培训"]
 
   - name:
       zh-CN: "智联校园招聘"
@@ -1008,6 +1022,7 @@ sites:
       zh-CN: "大学生企业校园招聘信息"
       en-US: "Campus recruitment platform"
     category: "life-jobs"
+    tags: ["校园招聘", "应届生", "大学生"]
 
   - name:
       zh-CN: "实习僧"
@@ -1017,6 +1032,7 @@ sites:
       zh-CN: "助力大学生职业发展，找实习校招"
       en-US: "Internship and campus job platform"
     category: "life-jobs"
+    tags: ["实习", "校招", "大学生"]
 
   - name:
       zh-CN: "阿里巴巴招聘"
@@ -1026,6 +1042,7 @@ sites:
       zh-CN: "阿里巴巴集团招聘官网"
       en-US: "Alibaba Group careers"
     category: "life-jobs"
+    tags: ["阿里", "招聘", "互联网"]
 
   - name:
       zh-CN: "应届生求职网"
@@ -1035,6 +1052,7 @@ sites:
       zh-CN: "应届大学毕业生校园招聘信息"
       en-US: "Fresh graduate job platform"
     category: "life-jobs"
+    tags: ["应届生", "校招", "毕业生"]
 
   - name:
       zh-CN: "职朋"
@@ -1044,6 +1062,7 @@ sites:
       zh-CN: "工资待遇、面试经验、公司点评"
       en-US: "Salary and company reviews"
     category: "life-jobs"
+    tags: ["薪资", "面试", "点评"]
 
   # ==================== 生活服务 - 邮箱服务 ====================
   - name:
@@ -1110,6 +1129,7 @@ sites:
       zh-CN: "互联网的净土，还原软件的本质"
       en-US: "Quality software resources"
     category: "software"
+    tags: ["软件", "下载", "绿色"]
     featured: true
 
   - name:
@@ -1120,6 +1140,7 @@ sites:
       zh-CN: "正版软件购买平台"
       en-US: "Licensed software marketplace"
     category: "software"
+    tags: ["软件", "正版", "购买"]
 
   - name:
       zh-CN: "广告终结者"
@@ -1129,6 +1150,7 @@ sites:
       zh-CN: "完全免费的去广告浏览器插件"
       en-US: "Free ad-blocking browser extension"
     category: "software"
+    tags: ["插件", "去广告", "免费"]
 
   # ==================== 关于本站 ====================
   - name:
