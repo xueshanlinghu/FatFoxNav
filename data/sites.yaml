@@ -160,6 +160,17 @@ sites:
     category: "ai-writing"
     tags: ["AI", "写作", "微信"]
 
+  # ==================== AI工具 - AI写作 ====================
+  - name:
+      zh-CN: "Google Flow"
+      en-US: "Google Flow"
+    url: "https://labs.google/fx/zh/tools/flow"
+    description:
+      zh-CN: "谷歌家的，pro可以免费用nano banana pro，可以生成视频"
+      en-US: "Google's, Pro can use nano banana pro for free and can generate videos"
+    category: "ai-all-in-one"
+    tags: ["AI", "nano banana", "视频", "图片"]
+
   # ==================== AI工具 - AI导航 ====================
   - name:
       zh-CN: "AI工具百宝箱"
@@ -863,11 +874,11 @@ sites:
     tags: ["下载", "磁力链", "工具"]
 
   - name:
-      zh-CN: "SMS ACTIVATE"
-      en-US: "SMS ACTIVATE"
-    url: "https://sms-activate.org"
+      zh-CN: "HERO-SMS"
+      en-US: "HERO-SMS"
+    url: "https://hero-sms.com/"
     description:
-      zh-CN: "虚拟短信验证码激活服务"
+      zh-CN: "虚拟短信验证码接码"
       en-US: "Virtual phone number service"
     category: "prod-files"
     tags: ["短信", "验证码", "虚拟号码"]
