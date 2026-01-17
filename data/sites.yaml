@@ -874,11 +874,11 @@ sites:
     tags: ["下载", "磁力链", "工具"]
 
   - name:
-      zh-CN: "SMS ACTIVATE"
-      en-US: "SMS ACTIVATE"
-    url: "https://sms-activate.org"
+      zh-CN: "HERO-SMS"
+      en-US: "HERO-SMS"
+    url: "https://hero-sms.com/"
     description:
-      zh-CN: "虚拟短信验证码激活服务"
+      zh-CN: "虚拟短信验证码接码"
       en-US: "Virtual phone number service"
     category: "prod-files"
     tags: ["短信", "验证码", "虚拟号码"]
