@@ -160,6 +160,17 @@ sites:
     category: "ai-writing"
     tags: ["AI", "写作", "微信"]
 
+  # ==================== AI工具 - AI写作 ====================
+  - name:
+      zh-CN: "Google Flow"
+      en-US: "Google Flow"
+    url: "https://labs.google/fx/zh/tools/flow"
+    description:
+      zh-CN: "谷歌家的，pro可以免费用nano banana pro，可以生成视频"
+      en-US: "Google's, Pro can use nano banana pro for free and can generate videos"
+    category: "ai-all-in-one"
+    tags: ["AI", "nano banana", "视频", "图片"]
+
   # ==================== AI工具 - AI导航 ====================
   - name:
       zh-CN: "AI工具百宝箱"
