@@ -139,6 +139,7 @@ sites:
     category: "ai-coding"
     tags: ["AI", "编程", "编辑器"]
 
+  # ==================== AI工具 - AI设计 ====================
   - name:
       zh-CN: "Screenshot to Code"
       en-US: "Screenshot to Code"
@@ -146,8 +147,18 @@ sites:
     description:
       zh-CN: "AI截图转代码工具，快速将网页设计转换为前端代码"
       en-US: "AI-powered tool to convert screenshots into frontend code"
-    category: "ai-coding"
-    tags: ["AI", "编程", "截图", "代码生成"]
+    category: "ai-design"
+    tags: ["AI", "设计", "截图", "代码生成"]
+
+  - name:
+      zh-CN: "Google Stitch"
+      en-US: "Google Stitch"
+    url: "https://stitch.withgoogle.com/"
+    description:
+      zh-CN: "输入描述即可生成网页界面原型，快速实现设计想法"
+      en-US: "Generate web interface prototypes from text descriptions"
+    category: "ai-design"
+    tags: ["AI", "设计", "原型", "界面生成"]
 
   # ==================== AI工具 - AI写作 ====================
   - name:

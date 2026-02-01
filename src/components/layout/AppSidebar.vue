@@ -246,7 +246,8 @@ const iconMap: Record<string, string> = {
   users: 'M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75',
   briefcase: 'M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2',
   mail: 'M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z M22 6l-10 7L2 6',
-  shield: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'
+  shield: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
+  wand: 'M15 4V2M15 16v-2M8 9h2M20 9h2M17.8 11.8L19 13M17.8 6.2L19 5M3 21l9-9M12.2 6.2L11 5'
 }
 
 // 图标颜色映射
@@ -267,6 +268,7 @@ const iconColorMap: Record<string, string> = {
   video: 'text-purple-500 dark:text-purple-400',
   music: 'text-purple-500 dark:text-purple-400',
   terminal: 'text-purple-500 dark:text-purple-400',
+  wand: 'text-purple-500 dark:text-purple-400',
   pen: 'text-purple-500 dark:text-purple-400',
   layers: 'text-purple-500 dark:text-purple-400',
   compass: 'text-purple-500 dark:text-purple-400',

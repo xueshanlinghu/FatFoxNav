@@ -43,6 +43,11 @@ categories:
           zh-CN: "AI编程"
           en-US: "AI Coding"
         icon: "terminal"
+      - id: "ai-design"
+        name:
+          zh-CN: "AI设计"
+          en-US: "AI Design"
+        icon: "wand"
       - id: "ai-writing"
         name:
           zh-CN: "AI写作"
