@@ -225,6 +225,17 @@ sites:
 
   # ==================== 开发工具 - 前端框架 ====================
   - name:
+      zh-CN: "Tailwind CSS"
+      en-US: "Tailwind CSS"
+    url: "https://tailwindcss.com"
+    description:
+      zh-CN: "实用优先的CSS框架，快速构建现代化网站"
+      en-US: "Utility-first CSS framework for rapid UI development"
+    category: "dev-frontend"
+    tags: ["前端", "框架", "CSS", "实用优先"]
+    featured: true
+
+  - name:
       zh-CN: "Bootstrap"
       en-US: "Bootstrap"
     url: "https://getbootstrap.com"
@@ -233,7 +244,56 @@ sites:
       en-US: "Popular CSS framework for responsive design"
     category: "dev-frontend"
     tags: ["前端", "框架", "CSS"]
-    featured: true
+
+  - name:
+      zh-CN: "Aceternity UI"
+      en-US: "Aceternity UI"
+    url: "https://ui.aceternity.com/components"
+    description:
+      zh-CN: "高质量炫酷UI组件库，提升网站视觉效果"
+      en-US: "High-quality stunning UI components for modern websites"
+    category: "dev-frontend"
+    tags: ["前端", "组件库", "UI", "动画"]
+
+  - name:
+      zh-CN: "Magic UI"
+      en-US: "Magic UI"
+    url: "https://magicui.design"
+    description:
+      zh-CN: "150+免费开源动画组件，基于React和Tailwind CSS"
+      en-US: "150+ free open-source animated components with React and Tailwind CSS"
+    category: "dev-frontend"
+    tags: ["前端", "组件库", "React", "动画", "免费"]
+
+  - name:
+      zh-CN: "DaisyUI"
+      en-US: "DaisyUI"
+    url: "https://daisyui.com"
+    description:
+      zh-CN: "最受欢迎的Tailwind CSS组件库"
+      en-US: "The most popular component library for Tailwind CSS"
+    category: "dev-frontend"
+    tags: ["前端", "组件库", "Tailwind", "UI"]
+
+  - name:
+      zh-CN: "Brutalist UI"
+      en-US: "Brutalist UI"
+    url: "https://brutalistui.site"
+    description:
+      zh-CN: "新野兽派风格React组件库，26+粗犷风格组件"
+      en-US: "Neo Brutalism React component library with 26+ bold components"
+    category: "dev-frontend"
+    tags: ["前端", "组件库", "React", "野兽派"]
+
+  - name:
+      zh-CN: "Glass UI"
+      en-US: "Glass UI"
+    url: "https://ui.glass"
+    description:
+      zh-CN: "玻璃态设计CSS UI库，打造现代化半透明效果"
+      en-US: "Glassmorphism CSS UI library for modern translucent designs"
+    category: "dev-frontend"
+    tags: ["前端", "CSS", "玻璃态", "UI"]
 
   - name:
       zh-CN: "BootCDN"
