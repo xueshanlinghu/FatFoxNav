@@ -139,6 +139,16 @@ sites:
     category: "ai-coding"
     tags: ["AI", "编程", "编辑器"]
 
+  - name:
+      zh-CN: "Screenshot to Code"
+      en-US: "Screenshot to Code"
+    url: "https://screenshottocode.com/"
+    description:
+      zh-CN: "AI截图转代码工具，快速将网页设计转换为前端代码"
+      en-US: "AI-powered tool to convert screenshots into frontend code"
+    category: "ai-coding"
+    tags: ["AI", "编程", "截图", "代码生成"]
+
   # ==================== AI工具 - AI写作 ====================
   - name:
       zh-CN: "网易见外"
