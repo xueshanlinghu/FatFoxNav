@@ -482,6 +482,16 @@ sites:
     category: "design-inspiration"
     tags: ["线框图", "模板", "原型"]
 
+  - name:
+      zh-CN: "Pexels"
+      en-US: "Pexels"
+    url: "https://www.pexels.com/zh-cn/"
+    description:
+      zh-CN: "免费高质量图库，海量精美照片和视频素材"
+      en-US: "Free high-quality stock photos and videos"
+    category: "design-inspiration"
+    tags: ["图片", "素材", "免费", "高清"]
+
   # ==================== 设计资源 - 设计工具 ====================
   - name:
       zh-CN: "Figma"
@@ -746,6 +756,16 @@ sites:
     category: "design-icons"
     tags: ["Emoji", "表情", "搜索"]
 
+  - name:
+      zh-CN: "Iconify"
+      en-US: "Iconify"
+    url: "https://icon-sets.iconify.design/"
+    description:
+      zh-CN: "20多万个免费矢量图标，支持多种格式导出"
+      en-US: "200,000+ free vector icons with multiple export formats"
+    category: "design-icons"
+    tags: ["图标", "矢量", "免费", "SVG"]
+
   # ==================== 设计资源 - 图片素材 ====================
   - name:
       zh-CN: "Unsplash"
@@ -756,6 +776,26 @@ sites:
       en-US: "Free high-resolution photos"
     category: "design-images"
     tags: ["图片", "免费"]
+
+  - name:
+      zh-CN: "unDraw"
+      en-US: "unDraw"
+    url: "https://undraw.co/illustrations"
+    description:
+      zh-CN: "免费SVG插画素材库，可自定义颜色"
+      en-US: "Free SVG illustrations with customizable colors"
+    category: "design-images"
+    tags: ["SVG", "插画", "免费", "可定制"]
+
+  - name:
+      zh-CN: "Picsum Photos"
+      en-US: "Picsum Photos"
+    url: "https://picsum.photos/"
+    description:
+      zh-CN: "通过URL指定尺寸获取占位图片，每次刷新不同照片"
+      en-US: "Placeholder images via URL with specified dimensions"
+    category: "design-images"
+    tags: ["占位图", "开发工具", "免费", "API"]
 
   - name:
       zh-CN: "GIPHY"
