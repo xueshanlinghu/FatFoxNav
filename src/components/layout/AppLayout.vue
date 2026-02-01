@@ -124,7 +124,8 @@ onUnmounted(() => {
          bg-primary-500 text-white
          shadow-lg shadow-primary-500/30
          flex items-center justify-center
-         hover:bg-primary-600 hover:-translate-y-1
+         hover:bg-primary-600 hover:shadow-xl hover:shadow-primary-500/50
+         hover:ring-4 hover:ring-primary-500/20
          transition-all duration-200;
 }
 

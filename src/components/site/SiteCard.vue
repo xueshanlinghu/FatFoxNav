@@ -74,8 +74,9 @@ const localizedDesc = computed(() => {
   @apply relative block overflow-hidden rounded-xl bg-white dark:bg-dark-card
          border border-gray-100 dark:border-dark-border
          transition-all duration-300 ease-out
-         hover:-translate-y-1.5 hover:shadow-xl hover:shadow-primary-500/10
-         hover:border-primary-200 dark:hover:border-primary-800;
+         hover:shadow-2xl hover:shadow-primary-500/20
+         hover:border-primary-300 dark:hover:border-primary-700
+         hover:ring-2 hover:ring-primary-500/10;
 }
 
 /* 精选卡片样式 */
@@ -106,8 +107,8 @@ const localizedDesc = computed(() => {
 
 .card-icon {
   @apply flex-shrink-0 w-12 h-12
-         transition-transform duration-300
-         group-hover:scale-110;
+         transition-all duration-300
+         group-hover:rotate-6 group-hover:brightness-110;
 }
 
 .card-info {
@@ -121,7 +122,7 @@ const localizedDesc = computed(() => {
 }
 
 .card-desc {
-  @apply text-sm text-gray-500 dark:text-gray-400
+  @apply text-sm text-slate-600 dark:text-gray-400
          line-clamp-2 mb-2;
 }
 
@@ -136,7 +137,11 @@ const localizedDesc = computed(() => {
          text-xs font-medium
          bg-primary-50 text-primary-600
          dark:bg-primary-900/30 dark:text-primary-400
-         border border-primary-100 dark:border-primary-800/50;
+         border border-primary-100 dark:border-primary-800/50
+         transition-all duration-200
+         hover:bg-primary-100 hover:scale-105
+         dark:hover:bg-primary-900/50
+         cursor-default;
 }
 
 /* 发光效果 */
@@ -145,9 +150,11 @@ const localizedDesc = computed(() => {
          pointer-events-none
          group-hover:opacity-100;
   background: radial-gradient(
-    circle at 50% 50%,
-    rgba(249, 115, 22, 0.08) 0%,
-    transparent 70%
+    circle at 50% 0%,
+    rgba(249, 115, 22, 0.15) 0%,
+    rgba(249, 115, 22, 0.05) 50%,
+    transparent 100%
   );
+  filter: blur(20px);
 }
 </style>

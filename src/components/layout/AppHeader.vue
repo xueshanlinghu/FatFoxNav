@@ -32,7 +32,9 @@ import LanguageSwitch from '@/components/common/LanguageSwitch.vue'
 <style scoped>
 .app-header {
   @apply fixed top-0 right-0 left-0 lg:left-64 h-16 z-30
-         border-b border-gray-200/50 dark:border-dark-border/50;
+         border-b border-gray-200/50 dark:border-dark-border/50
+         backdrop-blur-xl bg-white/80 dark:bg-dark-card/80
+         shadow-sm;
 }
 
 .header-inner {
