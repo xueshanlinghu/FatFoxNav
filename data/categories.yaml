@@ -109,6 +109,11 @@ categories:
           zh-CN: "设计工具"
           en-US: "Design Tools"
         icon: "tool"
+      - id: "design-guidelines"
+        name:
+          zh-CN: "设计指南"
+          en-US: "Design Guidelines"
+        icon: "book-open"
       - id: "design-icons"
         name:
           zh-CN: "图标素材"

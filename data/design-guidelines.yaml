@@ -1,0 +1,21 @@
+# 设计指南网站
+sites:
+  - name:
+      zh-CN: "苹果人机界面指南"
+      en-US: "Apple Human Interface Guidelines"
+    url: "https://developer.apple.com/cn/design/human-interface-guidelines/"
+    description:
+      zh-CN: "Apple 官方人机界面设计指南，涵盖布局、导航、组件、交互与平台规范"
+      en-US: "Apple's official interface design guidance for creating consistent experiences across Apple platforms"
+    category: "design-guidelines"
+    tags: ["设计", "UI", "UX", "设计规范", "Apple"]
+
+  - name:
+      zh-CN: "Google Material 设计指南"
+      en-US: "Material Design 3"
+    url: "https://m3.material.io/"
+    description:
+      zh-CN: "Google 官方 Material 3 设计指南，涵盖色彩、排版、组件、布局与交互规范"
+      en-US: "Google's Material 3 design guidance covering color, typography, components, layout, and interaction"
+    category: "design-guidelines"
+    tags: ["设计", "UI", "UX", "设计规范", "Material"]
