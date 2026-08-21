@@ -1,0 +1,11 @@
+# 学习资源补充
+sites:
+  - name:
+      zh-CN: "Uxcel"
+      en-US: "Uxcel"
+    url: "https://app.uxcel.com/"
+    description:
+      zh-CN: "交互式 UI/UX 学习平台，通过短课、练习、评估与项目系统学习设计技能"
+      en-US: "Interactive learning platform for UX, UI, product, and AI skills with bite-sized lessons and practice"
+    category: "res-courses"
+    tags: ["UI", "UX", "设计", "在线课程", "交互学习"]

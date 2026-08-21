@@ -1,0 +1,11 @@
+# 前端组件库补充
+sites:
+  - name:
+      zh-CN: "HeroUI"
+      en-US: "HeroUI"
+    url: "https://heroui.com/"
+    description:
+      zh-CN: "现代化开源 UI 组件库，提供可定制的 Web 与移动端组件"
+      en-US: "Modern open-source UI library with customizable components for web and mobile"
+    category: "dev-frontend"
+    tags: ["前端", "组件库", "UI", "React", "开源"]
