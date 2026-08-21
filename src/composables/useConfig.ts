@@ -3,10 +3,14 @@ import type { Category, Site, SiteSettings } from '@/types'
 
 // 导入YAML配置（vite-plugin-yaml支持）
 import sitesData from '@data/sites.yaml'
+import designGuidelinesData from '@data/design-guidelines.yaml'
 import categoriesData from '@data/categories.yaml'
 import settingsData from '@data/settings.yaml'
 
-const sites = ref<Site[]>((sitesData as any).sites || [])
+const sites = ref<Site[]>([
+  ...((sitesData as any).sites || []),
+  ...((designGuidelinesData as any).sites || [])
+])
 const categories = ref<Category[]>((categoriesData as any).categories || [])
 const settings = ref<SiteSettings>(settingsData as SiteSettings)
 const isLoaded = ref(true)
